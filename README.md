@@ -9,9 +9,16 @@ With a deep focus on **Web, Mobile, and API layers**, I build frameworks that ar
 * **Thread-Safe:** Engineered with advanced Java/TypeScript patterns to ensure 100% reliable execution.
 * **AI-Enhanced:** I utilize **LLMs and Prompt Engineering** to automate boilerplate code generation, log analysis, and Jira triage, reducing framework maintenance by 40%.
 
-I believe that Quality is a shared responsibility, and my goal is to implement **Shift-Left** strategies that empower developers and provide stakeholders with clear, data-driven confidence.
+## 📊 Skills Matrix
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Web Automation** | Playwright, Selenium, TypeScript, JavaScript, CSS/XPath |
+| **Mobile Automation** | Appium, Java, iOS/Android Real Devices, Mobile Gestures |
+| **API Testing** | Rest-Assured, Jackson, JSON Schema, Postman, Contract Testing |
+| **Cloud & DevOps** | **BrowserStack**, Docker, GitHub Actions, Jenkins, CI/CD Pipelines |
+| **AI Strategy** | OpenAI API, Gemini, Prompt Engineering, LLM-Driven Triage |
 
----
+I believe that Quality is a shared responsibility, and my goal is to implement **Shift-Left** strategies that empower developers and provide stakeholders with clear, data-driven confidence.
 
 ## 🏗️ Featured Automation Ecosystems
 
