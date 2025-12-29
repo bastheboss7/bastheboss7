@@ -1,7 +1,15 @@
 # Hi, I'm Baskar 👋
-### QA Solutions Architect | Full-Stack Automation & GenAI Specialist
 
-I build scalable, thread-safe automation ecosystems that bridge the gap between development and quality. My expertise spans Web, Mobile, API, and AI-driven SDLC optimizations.
+## 👨‍💻 About Me
+
+As a **Lead QA Automation Consultant**, I specialize in designing high-performance testing ecosystems that don't just find bugs, but accelerate the entire Software Development Life Cycle (SDLC). 
+
+With a deep focus on **Web, Mobile, and API layers**, I build frameworks that are:
+* **Scalable:** Leveraging Cloud Grids like **BrowserStack** and **Docker** for massive parallelization.
+* **Thread-Safe:** Engineered with advanced Java/TypeScript patterns to ensure 100% reliable execution.
+* **AI-Enhanced:** I utilize **LLMs and Prompt Engineering** to automate boilerplate code generation, log analysis, and Jira triage, reducing framework maintenance by 40%.
+
+I believe that Quality is a shared responsibility, and my goal is to implement **Shift-Left** strategies that empower developers and provide stakeholders with clear, data-driven confidence.
 
 ---
 
