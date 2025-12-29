@@ -3,7 +3,7 @@
 ## 👨‍💻 About Me
 
 
-As a **Lead QA Automation Consultant**, I specialize in designing high-performance testing ecosystems that don't just find bugs, but accelerate the entire Software Development Life Cycle (SDLC). 
+As a **Lead QA Consultant**, I specialize in designing high-performance testing ecosystems that don't just find bugs, but accelerate the entire Software Development Life Cycle (SDLC). 
 
 With a deep focus on **Web, Mobile, and API layers**, I build frameworks that are:
 * **Scalable:** Leveraging Cloud Grids like **BrowserStack** and **Docker** for massive parallelization.
@@ -27,15 +27,41 @@ Beyond automation, I specialize in maturing QA organizations using Agile and ind
 - **SAFe Agile Practitioner:** Deep experience in Scaled Agile Frameworks, participating in PI Planning and cross-team dependency management.
 - **Test Maturity Matrix (TMMi):** Engineered a strategic roadmap to transition QA teams from **Level 1 (Initial)** to **Level 5 (Optimized)**, focusing on process repeatability and preventative testing.
 
+> 📖 **Strategic Asset:** [View my full QA Transformation Roadmap & Maturity Matrix](./QA_STRATEGY_ROADMAP.md)
 
 ```mermaid
-graph LR
-    L1[Level 1: Initial] --> L2[Level 2: Managed]
-    L2 --> L3[Level 3: Defined]
-    L3 --> L4[Level 4: Measured]
-    L4 --> L5[Level 5: Optimized]
-    style L5 fill:#00ff00,stroke:#333,stroke-width:4px
+graph TD
+    %% Strategic Layer
+    subgraph Strategic_Governance [SAFe & ISTQB Governance]
+    A[Business Requirements / User Stories] --> B{Risk-Based Analysis}
+    B -->|High Risk| C[Manual Exploratory Testing]
+    B -->|Regression/Smoke| D[Automation Backlog]
+    end
+
+    %% Execution Layer
+    subgraph Engineering_Core [Hybrid Execution]
+    D --> E[Playwright / Appium Framework]
+    E --> F[BrowserStack Cloud Grid]
+    C --> G[Manual Defect Reporting]
+    end
+
+    %% Intelligence Layer
+    subgraph AI_Acceleration [LLM Intelligence Layer]
+    F -->|Failures| H[AI Root Cause Analysis]
+    H --> I[Automated Jira Triage]
+    I --> J[Self-Healing Script Suggestions]
+    end
+
+    %% Delivery
+    J --> K[Continuous Quality Delivery]
+    G --> K
+    
+    style Strategic_Governance fill:#f5f5f5,stroke:#333,stroke-dasharray: 5 5
+    style AI_Acceleration fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style Engineering_Core fill:#fff3e0,stroke:#e65100
 ```
+My approach balances the precision of automation with the critical thinking of manual exploratory testing. By applying ISTQB Risk-Based Analysis, I ensure we automate for ROI while utilizing LLMs to eliminate the manual overhead of log analysis and bug triaging."
+
 ## 🏗️ Featured Automation Ecosystems
 
 ### 📱 [Mobile Automation (Appium + BDD)](https://github.com/bastheboss7/MobileAutomation_BDD_Framework)
