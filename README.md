@@ -2,6 +2,7 @@
 
 ## 👨‍💻 About Me
 
+
 As a **Lead QA Automation Consultant**, I specialize in designing high-performance testing ecosystems that don't just find bugs, but accelerate the entire Software Development Life Cycle (SDLC). 
 
 With a deep focus on **Web, Mobile, and API layers**, I build frameworks that are:
@@ -12,14 +13,29 @@ With a deep focus on **Web, Mobile, and API layers**, I build frameworks that ar
 ## 📊 Skills Matrix
 | Category | Tools & Technologies |
 | :--- | :--- |
+| **Strategy & Governance** | ISTQB, SAFe Agile, TMMi, Risk-Based Testing, Root Cause Analysis |
 | **Web Automation** | Playwright, Selenium, TypeScript, JavaScript, CSS/XPath |
 | **Mobile Automation** | Appium, Java, iOS/Android Real Devices, Mobile Gestures |
 | **API Testing** | Rest-Assured, Jackson, JSON Schema, Postman, Contract Testing |
 | **Cloud & DevOps** | **BrowserStack**, Docker, GitHub Actions, Jenkins, CI/CD Pipelines |
 | **AI Strategy** | OpenAI API, Gemini, Prompt Engineering, LLM-Driven Triage |
 
-I believe that Quality is a shared responsibility, and my goal is to implement **Shift-Left** strategies that empower developers and provide stakeholders with clear, data-driven confidence.
 
+## 🏛️ Quality Governance & Strategy
+Beyond automation, I specialize in maturing QA organizations using Agile and industry-standard frameworks:
+- **ISTQB Certified:** Expert in Test Design, Risk Analysis, and Defect Management.
+- **SAFe Agile Practitioner:** Deep experience in Scaled Agile Frameworks, participating in PI Planning and cross-team dependency management.
+- **Test Maturity Matrix (TMMi):** Engineered a strategic roadmap to transition QA teams from **Level 1 (Initial)** to **Level 5 (Optimized)**, focusing on process repeatability and preventative testing.
+
+
+```mermaid
+graph LR
+    L1[Level 1: Initial] --> L2[Level 2: Managed]
+    L2 --> L3[Level 3: Defined]
+    L3 --> L4[Level 4: Measured]
+    L4 --> L5[Level 5: Optimized]
+    style L5 fill:#00ff00,stroke:#333,stroke-width:4px
+```
 ## 🏗️ Featured Automation Ecosystems
 
 ### 📱 [Mobile Automation (Appium + BDD)](https://github.com/bastheboss7/MobileAutomation_BDD_Framework)
