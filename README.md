@@ -1,4 +1,23 @@
 # Hi, I'm Baskar 👋
+### QA Solutions Architect | Full-Stack Automation & GenAI Specialist
+
+![Maturity Level](https://img.shields.io/badge/Strategy-TMMi_Level_5_Architect-blueviolet?style=for-the-badge)
+![Certified](https://img.shields.io/badge/Certified-ISTQB_%26_SAFe-0052CC?style=for-the-badge)
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-FFD700?style=for-the-badge&logo=google-gemini&logoColor=black)
+![LLM Integration](https://img.shields.io/badge/LLM_Integration-000000?style=for-the-badge&logo=anthropic&logoColor=white)
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Appium](https://img.shields.io/badge/Appium-61DAFB?style=for-the-badge&logo=appium&logoColor=black)
+![BrowserStack](https://img.shields.io/badge/-BrowserStack-31215A?style=for-the-badge&logo=browserstack&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+---
+
+# Hi, I'm Baskar 👋
 
 ## 👨‍💻 About Me
 
@@ -8,16 +27,6 @@ With a deep focus on **Web, Mobile, and API layers**, I build frameworks that ar
 * **Scalable:** Leveraging Cloud Grids like **BrowserStack** and **Docker** for massive parallelization.
 * **Thread-Safe:** Engineered with advanced Java/TypeScript patterns to ensure 100% reliable execution.
 * **AI-Enhanced:** I utilize **LLMs and Prompt Engineering** to automate boilerplate code generation, log analysis, and Jira triage, reducing framework maintenance by 40%.
-
-## 📊 Skills Matrix
-| Category | Tools & Technologies |
-| :--- | :--- |
-| **Strategy & Governance** | ISTQB, SAFe Agile, TMMi, Risk-Based Testing, Root Cause Analysis |
-| **Web Automation** | Playwright, Selenium, TypeScript, JavaScript, CSS/XPath |
-| **Mobile Automation** | Appium, Java, iOS/Android Real Devices, Mobile Gestures |
-| **API Testing** | Rest-Assured, Jackson, JSON Schema, Postman, Contract Testing |
-| **Cloud & DevOps** | **BrowserStack**, Docker, GitHub Actions, Jenkins, CI/CD Pipelines |
-| **AI Strategy** | OpenAI API, Gemini, Prompt Engineering, LLM-Driven Triage |
 
 
 ## 🏛️ Quality Governance & Strategy
@@ -83,18 +92,6 @@ Watch a demo of the app in action:
 
 
 ---
-
-## 📊 Technical Toolbox
-
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-FFD700?style=for-the-badge&logo=google-gemini&logoColor=black)
-![LLM Integration](https://img.shields.io/badge/LLM_Integration-000000?style=for-the-badge&logo=anthropic&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Appium](https://img.shields.io/badge/Appium-61DAFB?style=for-the-badge&logo=appium&logoColor=black)
-![BrowserStack](https://img.shields.io/badge/-BrowserStack-31215A?style=for-the-badge&logo=browserstack&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 - **Architecture:** Factory Pattern, Singleton, ThreadLocal Concurrency.
 - **Methodologies:** BDD (Gherkin), Shift-Left Testing, CI/CD Pipeline Success.
