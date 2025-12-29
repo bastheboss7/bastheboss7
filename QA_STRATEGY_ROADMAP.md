@@ -2,12 +2,12 @@
 **Lead Consultant:** Baskar P. (ISTQB & SAFe Agile Certified)
 
 ## 🎯 The Vision: Hybrid Intelligence
-To transition from reactive testing to a **Risk-Based, AI-Accelerated Ecosystem**. This roadmap balances the critical thinking of Manual QA with the speed of Automation, governed by SAFe and ISTQB principles.
+Transition from reactive testing to a **Risk-Based, AI-Accelerated Ecosystem**, balancing Manual QA critical thinking with Automation speed under SAFe and ISTQB governance.
 
 ---
 
 ### 🗺️ The Strategic Workflow
-This roadmap is powered by the following integrated architecture:
+Powered by an integrated architecture across governance, execution, and AI acceleration:
 
 ```mermaid
 graph TD
@@ -40,6 +40,7 @@ graph TD
     style AI_Acceleration fill:#e1f5fe,stroke:#01579b,stroke-width:2px
     style Engineering_Core fill:#fff3e0,stroke:#e65100
 ```
+
 ## 📊 Test Maturity Matrix (TMMi Integration)
 
 | TMMi Level | Manual & Strategic Focus | Automation & AI Focus |
@@ -50,20 +51,21 @@ graph TD
 | **L4: Measured** | Metrics-driven: Defect Leakage & Root Cause. | CI/CD Quality Gates; API Contract Testing. |
 | **L5: Optimized** | Strategic Quality Transformation & Governance. | **LLM-Powered Triage & Self-Healing Scripts.** |
 
-
 ## 📅 Implementation Phases
 
 #### Phase 1: Governance & Risk (Months 1-2)
-* **Shift-Left Strategy:** Involve QA in SAFe refinement sessions to prevent bugs at the requirement level.
-* **Strategic Manual QA:** Apply ISTQB techniques to identify high-risk business logic that requires exploratory testing.
-* **Core Architecture:** Set up the fundamental Playwright/Appium framework and thread-safe drivers.
+* **Shift-Left Strategy:** QA in SAFe refinement to prevent defects at requirements.
+* **Strategic Manual QA:** ISTQB techniques to target high-risk logic with exploratory testing.
+* **Core Architecture:** Stand up Playwright/Appium foundation and thread-safe drivers.
 
 #### Phase 2: Hybrid Execution (Months 3-4)
-* **Centralized Reporting:** Establish a "Single Source of Truth" dashboard for both manual and automated results.
-* **Exploratory Charters:** Execute time-boxed manual exploratory sessions for all new feature sets.
-* **Massive Parallelization:** Scale automation on BrowserStack to achieve feedback loops of under 15 minutes.
+* **Centralized Reporting:** Single Source of Truth for manual + automated results.
+* **Exploratory Charters:** Time-boxed charters for all new feature sets.
+* **Massive Parallelization:** BrowserStack scaling to keep feedback <15 minutes.
 
 #### Phase 3: AI-Driven Optimization (Months 5-6)
-* **Intelligent Triage:** Deploy LLM-driven log analysis (OpenAI/Gemini) to categorize failures automatically.
-* **Maintenance Reduction:** Use Generative AI to assist in updating Page Objects and repairing flaky tests.
-* **Predictive Quality:** Use historical defect data to prioritize manual testing efforts in high-risk modules.
+* **Intelligent Triage:** LLM log analysis (OpenAI/Gemini) to auto-categorize failures.
+* **Maintenance Reduction:** Generative AI assists in Page Object updates and flaky fixes.
+* **Predictive Quality:** Historical defect data drives manual focus on high-risk modules.
+
+---
