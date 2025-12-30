@@ -1,23 +1,38 @@
 # 🤝 Team Onboarding: The High-Trust QA Way
-> **Welcome to the Team!** This guide will help you navigate our Level 5 TMMi environment and our 5:1 Dev-to-QA ratio.
-
-As a Lead Consultant, I value **Autonomy over Micro-management**. This document explains the standards you need to follow so we can ship high-quality code at Sky-speed.
+> **Welcome to the Team!** This guide defines our "Triangle of Quality": balancing Human Intuition, Automated Guardrails, and AI Acceleration.
 
 ---
 
-### 1. 🎯 Your First 48 Hours
-Your goal is to understand our **[Quality Gates](../01-Strategic-Governance/QUALITY_GATES.md)**.
-- **Day 1:** Set up your local environment (Playwright, Node.js, Docker).
-- **Day 1:** Review the **[Team Working Agreement](./TEAM_WORKING_AGREEMENT.md)**—this is how we treat each other.
-- **Day 2:** Shadow a **Three Amigos** session to see how we "Shift-Left."
+### 1. ⚖️ The Triangle of Quality (Your Daily Balance)
+We maintain a 5:1 Dev-to-QA ratio by distributing effort equally across three pillars:
+
+| Pillar | Focus Area | Your Tooling |
+| :--- | :--- | :--- |
+| **🧠 Manual** | **Exploratory & UX:** Find what the requirements missed. | Session-Based Charters, Persona Testing. |
+| **🤖 Automation** | **Regression & Speed:** Protect the "Golden Paths." | Playwright (TS), API Integration, CI/CD. |
+| **✨ AI-Augmented** | **Productivity & Analysis:** Speed up the boring stuff. | GitHub Copilot, ChatGPT (Test Data/BPMN). |
 
 ---
 
-### 2. ⚖️ Decision Making: The RBT Rule
-We do not test everything. Before you start a ticket:
-1. Open the **[RBT Priority Matrix](../01-Strategic-Governance/RBT_PRIORITY_MATRIX.md)**.
-2. If a ticket is **High Risk**, you own the "In-Sprint Automation" AND the "Manual Exploratory" charter.
-3. If a ticket is **Low Risk**, you are authorized to delegate the testing to the Developer using the **[Self-QA Checklist](../03-Operational-Delivery/DEV_SELF_QA_CHECKLIST.md)**.
+### 2. 🛠️ Execution Standards: The Three Pillars
+
+#### 🧠 Manual Excellence (Exploratory Charters)
+We don't do "Step-by-Step" manual scripts. We use **Exploratory Charters**:
+* **Time-Boxed Sessions:** 60-90 minutes of focused "destructive" testing.
+* **Persona-Driven:** Testing as a "New User" vs. an "Admin" vs. a "Hacker."
+* **Documentation:** Use Loom or screenshots; focus on *observability* rather than long-form writing.
+
+#### 🤖 Automation Standards (Playwright/TypeScript)
+We follow the "10-Minute Rule": Our smoke suite must finish in 10 minutes.
+* **Atomic Tests:** One test, one assertion. No "Flaky" logic.
+* **Shift-Left:** We write the "Skeleton" of the automation *before* the Dev finishes the code.
+* **API First:** If you can test it with an API call (Gate 2), don't do it via the UI.
+
+#### ✨ AI Integration (Augmented QA)
+We expect you to use AI to 10x your output.
+* **Test Data:** Use LLMs to generate complex JSON payloads or edge-case boundary data.
+* **Boilerplate:** Use Copilot to generate Page Objects and repetitive Playwright selectors.
+* **Log Analysis:** Use AI to parse large Splunk/Datadog logs to find the "needle in the haystack" during RCAs.
 
 ---
 
@@ -25,32 +40,27 @@ We do not test everything. Before you start a ticket:
 
 
 
-| Days | Phase | Your Responsibility |
-| :--- | :--- | :--- |
-| **1-2** | Refinement | Challenge requirements. Define "Success Criteria" in Gherkin. |
-| **3-5** | Skeleton Phase | **Automation:** Write Page Objects. **Manual:** Create Exploratory Charters. |
-| **6-8** | Execution | Execute tests. If it's High Risk, it needs a 100% pass on both UI and API. |
-| **9-10** | Hardening | Prune old tests. Perform a **[Blameless RCA](../03-Operational-Delivery/BLAMELESS_RCA.md)** for any escaped bugs. |
+| Days | Phase | Manual Focus | Automation Focus | AI Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **1-2** | Refinement | Logic "Sniff Test" | Testability Audit | BDD/Gherkin Drafting |
+| **3-5** | Skeleton | Charter Planning | Page Object creation | Mock Data Generation |
+| **6-8** | Execution | **Exploratory Testing** | Script Execution | Log/Error Analysis |
+| **9-10** | Hardening | Edge-case validation | Refactoring scripts | RCA Summarization |
 
 ---
 
-### 🛠️ 4. Automation Standards
-We use **Playwright (TypeScript)**. To keep our "10-Minute Rule" alive:
-* **Atomic Tests:** One test, one assertion.
-* **No Hard Waits:** Use auto-waiting and web-first assertions.
-* **Data Independent:** Use API mocks or dynamic data seeding; never rely on static database state.
-
----
-
-### 🗣️ 5. Communication & "The Rude Rule"
-At Sky/TCS, we are partners with Developers, not police. 
-* **Instead of:** "This is broken, fix it."
-* **Try:** "I noticed the MFA token expires in 10 seconds instead of 60. Is that expected behavior according to the security spec?"
-* **RCA Spirit:** If a bug reaches production, we ask **"What failed in our process?"** never **"Who missed this?"**
+### 🗣️ 4. Communication: The "Consultant" Voice
+At Sky/TCS, we are partners. 
+* **Instead of:** "This is broken."
+* **Try:** "I explored the MFA flow with a 3G network simulation and found a timeout issue. Should we adjust the threshold for mobile users?"
+* **AI Ethics:** Never paste client-sensitive PII into public AI tools. Always use sanitized data.
 
 ---
 
 ### 🏁 Your Success Metric
-You are successful here if, by the end of Month 1, you can manage a **High-Risk feature release** independently using the tools in this repository.
+You are successful here if you can deliver a **Critical Feature** by Month 1 using the **"Power of Three"**: 
+1. An **Automation Suite** that passes in CI. 
+2. A **Manual Charter Report** detailing found edge cases. 
+3. An **AI-Driven Data Set** that covers 100+ scenarios.
 
 > **Next Step:** Book a 15-minute 1-on-1 with the Lead QA Consultant to review your **[Engineering Skills Matrix](./SKILLS_MATRIX.md)**.
