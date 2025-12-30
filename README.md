@@ -16,13 +16,15 @@
 
 ## 👨‍💻 About Me
 
-
 As a **QA Leader**, I build comprehensive testing strategies that balance **speed, coverage, and human insight**. I believe the best quality comes from combining automated regression with skilled manual testing—not replacing one with the other.
 
-My approach focuses on three strategic pillars:
-* **Risk-Based Decision Making:** Allocating resources where they matter most—critical features, high-failure areas, and human-centric scenarios.
-* **Scalable Test Strategy:** Automating what's repeatable; keeping what requires judgment and creativity in the hands of skilled testers.
-* **Gen AI-Accelerated Testing:** Leveraging LLMs to boost both manual and automation efficiency—from test design to failure analysis to exploratory guidance.
+My approach leverages **Gen AI as a force multiplier**:
+* **Risk-Based Decision Making:** Allocating resources where they matter most—critical features and high-failure areas.
+* **Hybrid Quality Architecture:** Combining the precision of Playwright/Selenium with AI-driven exploratory insights.
+* **AI-Accelerated Engineering:** Implementing LLMs to automate the QA process & boiler plate automation codes.
+* **Organizational Maturity:** Helping teams evolve from **Level 1 (Ad-hoc)** to **Level 5 (Optimized)**, with emphasis on people and culture alongside processes.
+
+> 📖 **Strategic Roadmap:** [QA Transformation & Maturity Matrix](./01-Strategic-Governance/QA_STRATEGY_ROADMAP.md)
 
 ---
 
@@ -32,64 +34,28 @@ My approach focuses on three strategic pillars:
 |----------|----------|--------|
 | 📊 **Strategy** | [Risk-Based Testing Matrix](./01-Strategic-Governance/RBT_PRIORITY_MATRIX.md) | Reduced testing cycles by 30% while maintaining coverage |
 | 🤖 **AI Innovation** | [Gen AI Transformation Guide](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md) | 50% faster test design, 40% reduction in flaky tests |
+| 🛠️ **Frameworks** | [Multi-Layer Automation Strategy](./01-Strategic-Governance/TECHNOLOGY_STACK.md) | High-performance Web, Mobile, and API architecture |
 | 📈 **Business Value** | [QA Transformation Case Study](./04-Business-Value-ROI/CASE_STUDY_TRANSFORMATION.md) | Level 1→5 maturity with measurable ROI |
 | 🎯 **Operational** | [Three Amigos Checklist](./03-Operational-Delivery/THREE_AMIGOS_CHECKLIST.md) | 60% reduction in requirement defects |
-| 🛠️ **Practical Tools** | [Defect Report Template](./05-Practical-Examples/DEFECT_REPORT_TEMPLATE.md) | Industry-standard bug reporting format |
-
----
-
-## 📌 How to Use This Repository
-
-**For Recruiters/Interviewers:**
-1. Start with [Case Study](./04-Business-Value-ROI/CASE_STUDY_TRANSFORMATION.md) for real-world impact
-2. Review [QA Strategy Roadmap](./01-Strategic-Governance/QA_STRATEGY_ROADMAP.md) for strategic thinking
-3. Check [Skills Matrix](./02-People-Operations/SKILLS_MATRIX.md) for team development approach
-
-**For QA Professionals:**
-- Clone templates from `05-Practical-Examples/` for immediate use
-- Adapt frameworks from `01-Strategic-Governance/` to your organization
-- Use `03-Operational-Delivery/` checklists in your sprint ceremonies
-
-**For Organizations:**
-- These artifacts are battle-tested across multiple industries
-- Each template includes context, rationale, and usage guidance
-- Available for consultation on implementing these frameworks at scale
 
 ---
 
 *💡 This repository is actively maintained with new frameworks and case studies added regularly. Star ⭐ to stay updated!*
 
-
-## � Testing Philosophy & Governance
-I guide QA transformation using proven frameworks:
-- **Risk-Based Testing (RBT):** Strategic allocation of manual vs. automated testing effort based on business impact.
-- **ISTQB Principles:** Expertise in test design, defect analysis, and quality assurance fundamentals—not just tool proficiency.
-- **Hybrid Testing Models:** Combining exploratory, manual testing with automation for maximum coverage and efficiency.
-- **Organizational Maturity:** Helping teams evolve from **Level 1 (Ad-hoc)** to **Level 5 (Optimized)**, with emphasis on people and culture alongside processes.
-
-> 📖 **Strategic Roadmap:** [QA Transformation & Maturity Matrix](./01-Strategic-Governance/QA_STRATEGY_ROADMAP.md)
 ---
 
 ## 🤖 Gen AI-Powered Quality Strategy
-**Gen AI enhances both manual and automation testing—it's not an automation tool, it's a force multiplier.**
+**Gen AI is not just for automation; it's a paradigm shift for the entire Quality Lifecycle.**
 
-### Manual Testing + Gen AI
-- **Exploratory Guidance:** LLMs provide context-aware testing suggestions for edge cases and risk areas
-- **Smart Defect Reporting:** Auto-summarize bugs with root cause hypotheses and reproduction steps
-- **Test Data Generation:** Synthetic, realistic test scenarios (JSON, XML, user personas) for manual test execution
-- **Accessibility & UX Insights:** AI flags potential usability issues before manual testers investigate
+### ✍️ Manual Testing + Gen AI
+* **Exploratory Guidance:** LLMs provide context-aware testing suggestions for edge cases.
+* **Smart Defect Reporting:** Auto-summarize bugs with root cause hypotheses.
+* **🔗 Project:** [GenAI-QA-Planning-Project](https://github.com/bastheboss7/GenAI-QA-Planning-Project) | 🎬 [Watch Demo](https://www.youtube.com/watch?v=zjobz7x6lmM)
 
-### Automation + Gen AI
-- **Test Design Acceleration:** Generate Gherkin scenarios and test cases from user stories in seconds
-- **Self-Healing Framework:** AI-adaptive locators and intelligent retry logic for flaky test resilience
-- **Failure Triage & RCA:** Automated root-cause analysis, log parsing, and Jira ticket generation
-- **Performance Insights:** AI-powered performance profiling and bottleneck identification
-
-### Cross-Functional Impact
-- **50% reduction** in test design time (story → testable scenarios)
-- **40% fewer flaky failures** (self-healing, intelligent waits)
-- **60% faster incident triage** (AI-assisted RCA and defect summaries)
-- **Team upskilling:** Manual testers focus on strategy; automation engineers focus on architecture
+### ⚙️ Automation + Gen AI
+* **Test Design Acceleration:** Generate Gherkin and Page Objects from User Stories in seconds.
+* **Self-Healing Frameworks:** AI-adaptive locators for resilient UI testing.
+* **🔗 Project:** [GenAI-Jira-Integration](https://github.com/bastheboss7/GenAI-Jira-Integration) | 🎬 [Watch Demo](https://www.youtube.com/watch?v=eV_g_kf53Ww)
 
 ---
 
