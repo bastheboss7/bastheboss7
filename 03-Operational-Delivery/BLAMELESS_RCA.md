@@ -111,3 +111,12 @@ Every incident has multiple contributing factors—fix the system, not the perso
 - Same mistakes repeat (root causes ignored)
 - Culture of fear (people protect themselves)
 - Automation and manual testers blame each other
+
+---
+## 📈 RCA Action Tracker (Sprint Governance)
+*This table tracks the permanent process improvements derived from RCAs.*
+
+| Incident ID | Root Cause | Permanent Action Taken | Status |
+| :--- | :--- | :--- | :--- |
+| RCA-001 | Missing Unit Test for Auth Edge Case | Updated **Gate 1** to include 95% coverage for Auth module. | ✅ Done |
+| RCA-002 | Staging DB out of sync with Prod | Integrated **Automated Schema Validation** into Gate 2. | 🛠️ In Progress |
