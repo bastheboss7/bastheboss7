@@ -19,41 +19,40 @@ This matrix is the bridge between **business priorities** and **testing resource
 - **Risk 8-14 (Medium):** Mix manual for new features + automation for regression. Balance required.
 - **Risk 1-7 (Low):** Lighter touch. Automation-first, occasional manual verification.
 
-## When Manual Testing Wins
+---
+This matrix is to translate Risk Scores into specific Manual vs. Automation effort allocations.
 
-✅ **Exploratory & Context-Driven:** Discovering unexpected flows (e.g., user cancels mid-MFA)  
-✅ **Usability & UX:** Does the error message help users recover? (Automation can't judge this)  
-✅ **Security-Sensitive Flows:** Authentication, data export, payment—human oversight reduces risk  
-✅ **Visual & Localization:** Color, alignment, cultural appropriateness across regions  
-✅ **User Empathy:** How would a frustrated user behave? Manual testers simulate real frustration  
+## 🧮 The Scoring Formula
+**Risk Score = Impact (1-5) × Probability (1-5)**
 
-## When Automation Wins
-
-✅ **High-Frequency Regression:** Login > Profile > Settings > Logout (runs 100x/day safely)  
-✅ **Data Validation:** API contracts, database consistency, performance SLAs  
-✅ **Multi-Environment Testing:** Same test across staging, QA, and production-like environments  
-✅ **CI/CD Gate:** Automated sanity before code ships to staging  
-✅ **Load & Scale:** Testing with 1000s of concurrent users (humans can't do this)  
-
-## Gen AI Multiplier Effects
-
-**Gen AI enhances BOTH manual and automated testing decisions:**
-
-### For Manual Testing (Higher Risk Areas)
-- **Exploratory Guidance:** Gen AI suggests edge cases based on feature complexity and historical defect patterns
-- **Test Data Generation:** Synthetic user personas and scenarios to inform exploratory test paths
-- **Accessibility Insights:** AI flags potential UX/accessibility issues before manual testers investigate
-
-### For Automation (High-Frequency Regression)
-- **Test Case Generation:** LLMs auto-generate Gherkin scenarios from acceptance criteria (50% time savings)
-- **Self-Healing:** AI-adaptive selectors and intelligent waits reduce flaky test failures by 40%
-- **Intelligent Triage:** Auto-classify failures and suggest root causes before engineers investigate
-
-### Risk-Based Gen AI Strategy
-- **Risk 15-25 (Critical):** Use Gen AI to enrich manual exploratory guidance + auto-generate regression tests
-- **Risk 8-14 (Medium):** Gen AI suggests test scenarios; manual testers validate; automation covers regression
-- **Risk 1-7 (Low):** Gen AI-powered monitoring + lightweight automation; minimal manual effort
+| Score | Category | Strategy |
+| :--- | :--- | :--- |
+| **15-25** | 🔴 **Critical** | **Exhaustive:** 100% Automation + Senior Manual Exploratory. |
+| **8-14** | 🟡 **Medium** | **Hybrid:** Manual for new logic; Automation for regression. |
+| **1-7** | 🟢 **Low** | **Minimal:** Automated Smoke Test only; Manual on-demand. |
 
 ---
-**Key Principle:** Automation accelerates regression. Manual testing accelerates discovery. **Gen AI accelerates both.**
-- **Risk 1-4:** Minimal effort. Monitor via production logs/analytics.
+
+## 🛠️ Execution Worksheet (Sprint Template)
+
+Use this table during the **Three Amigos** or **Sprint Planning** to define the "Definition of Done."
+
+| Feature Name | Risk Score | Logic Type | Manual Requirement | Automation Requirement |
+| :--- | :---: | :--- | :--- | :--- |
+| **Example: Apple Pay Integration** | **25** | New | 3 days Exploratory (Edge cases, network drops). | 100% Path Coverage (API + UI). |
+| **Example: Update Footer Links** | **2** | Existing | None (Spot check only). | None (Handled by Global Smoke). |
+| **Example: Search Filter v2** | **12** | New | 1 day Functional UI testing. | Automate "Happy Path" only. |
+
+---
+
+## 🔍 Deep Dive: Critical Logic Strategy (Score 15-25)
+
+### 1. New Critical Logic (Discovery Focus)
+* **Mandatory:** 1x Senior Peer Review of the Test Plan.
+* **Technique:** **Negative Testing** (Invalid inputs, SQL injection attempts, concurrency checks).
+* **Exit Criteria:** 0 Open Defects of any severity.
+
+### 2. Existing Critical Logic (Protection Focus)
+* **Mandatory:** **Impact Analysis** document showing which modules are touched.
+* **Technique:** **Regression Suite** (Must pass 100% in Gate 3).
+* **Exit Criteria:** No regression found in core "Golden Flows."
