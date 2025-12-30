@@ -55,7 +55,7 @@ My approach leverages **Gen AI as a force multiplier**:
 ### ⚙️ Automation + Gen AI
 * **Test Design Acceleration:** Generate Gherkin and Page Objects from User Stories in seconds.
 * **Self-Healing Frameworks:** AI-adaptive locators for resilient UI testing.
-* **🔗 Project:** [GenAI-Jira-Integration](https://github.com/bastheboss7/GenAI-Jira-Integration) | 🎬 [Watch Demo](https://www.youtube.com/watch?v=eV_g_kf53Ww)
+* **🔗 Project:** [GenAI Integrated Playwright framework development](https://github.com/bastheboss7/Playwright_WebUI) | 🎬 [Watch Demo](https://www.youtube.com/watch?v=eV_g_kf53Ww)(https://youtu.be/BuX3Lan-9qM))
 
 ---
 
