@@ -28,6 +28,13 @@ Quality Gates are the non-negotiable checkpoints in our CI/CD pipeline. These ga
 - [ ] **Automation (AT):** All "In-Sprint" automated scripts for **High/Medium Risk** features must be merged and passing.
 - [ ] **Observability:** Error logs must be validated as "Clear and Concise" (No vague 'Error' strings).
 
+### 🤖 Automation Enforcement (Gate 3)
+To ensure Gate 3 is both thorough and performant, we utilize a **Tiered Automation Execution** model. Execution is governed by metadata tags assigned during development based on the [RBT Score](./RBT_PRIORITY_MATRIX.md).
+
+* **Mandatory Pass:** All tests tagged `@smoke` (Critical Path) must pass 100%.
+* **Regression Requirement:** Tests tagged `@regression` (High/Medium Risk) must pass >98%.
+* **Reference:** See the full [Automation Tagging Strategy](./AUTOMATION_TAGGING_STRATEGY.md) for technical implementation details.
+
 ### 🚪 Gate 4: Release Readiness (Leadership Level)
 *Owner: Lead QA Consultant*
 
