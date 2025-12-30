@@ -1,110 +1,94 @@
 # Hi, I'm Baskar 👋
-### QA Solutions Architect | Full-Stack Automation & GenAI Specialist
+### QA Leader | Risk-Based Testing & Hybrid Quality Engineering
 
-![Maturity Level](https://img.shields.io/badge/Strategy-TMMi_Level_5_Architect-blueviolet?style=for-the-badge)
-![Certified](https://img.shields.io/badge/Certified-ISTQB_%26_SAFe-0052CC?style=for-the-badge)
-
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-FFD700?style=for-the-badge&logo=google-gemini&logoColor=black)
-![LLM Integration](https://img.shields.io/badge/LLM_Integration-000000?style=for-the-badge&logo=anthropic&logoColor=white)
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Appium](https://img.shields.io/badge/Appium-61DAFB?style=for-the-badge&logo=appium&logoColor=black)
-![BrowserStack](https://img.shields.io/badge/-BrowserStack-31215A?style=for-the-badge&logo=browserstack&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![ISTQB](https://img.shields.io/badge/ISTQB_Certified-1E90FF?style=flat-square)
+![SAFe](https://img.shields.io/badge/SAFe_Agile-0052CC?style=flat-square)
+![TMMi](https://img.shields.io/badge/TMMi_Level_5-blueviolet?style=flat-square)
 
 ---
-
-# Hi, I'm Baskar 👋
 
 ## 👨‍💻 About Me
 
-As a **Lead QA Consultant**, I specialize in designing high-performance testing ecosystems that don't just find bugs, but accelerate the entire Software Development Life Cycle (SDLC).
+As a **QA Leader**, I build comprehensive testing strategies that balance **speed, coverage, and human insight**. I believe the best quality comes from combining automated regression with skilled manual testing—not replacing one with the other.
 
-With a deep focus on **Web, Mobile, and API layers**, I build frameworks that are:
-* **Scalable:** Leveraging Cloud Grids like **BrowserStack** and **Docker** for massive parallelization.
-* **Thread-Safe:** Engineered with advanced Java/TypeScript patterns to ensure 100% reliable execution.
-* **AI-Enhanced:** I utilize **LLMs and Prompt Engineering** to automate boilerplate code generation, log analysis, and Jira triage, reducing framework maintenance by 40%.
+My approach focuses on three strategic pillars:
+* **Risk-Based Decision Making:** Allocating resources where they matter most—critical features, high-failure areas, and human-centric scenarios.
+* **Scalable Test Strategy:** Automating what's repeatable; keeping what requires judgment and creativity in the hands of skilled testers.
+* **Gen AI-Accelerated Testing:** Leveraging LLMs to boost both manual and automation efficiency—from test design to failure analysis to exploratory guidance.
 
 
-## 🏛️ Quality Governance & Strategy
-Beyond automation, I specialize in maturing QA organizations using Agile and industry-standard frameworks:
-- **ISTQB Certified:** Expert in Test Design, Risk Analysis, and Defect Management.
-- **SAFe Agile Practitioner:** Deep experience in Scaled Agile Frameworks, participating in PI Planning and cross-team dependency management.
-- **Test Maturity Matrix (TMMi):** Engineered a strategic roadmap to transition QA teams from **Level 1 (Initial)** to **Level 5 (Optimized)**, focusing on process repeatability and preventative testing.
+## � Testing Philosophy & Governance
+I guide QA transformation using proven frameworks:
+- **Risk-Based Testing (RBT):** Strategic allocation of manual vs. automated testing effort based on business impact.
+- **ISTQB Principles:** Expertise in test design, defect analysis, and quality assurance fundamentals—not just tool proficiency.
+- **Hybrid Testing Models:** Combining exploratory, manual testing with automation for maximum coverage and efficiency.
+- **Organizational Maturity:** Helping teams evolve from **Level 1 (Ad-hoc)** to **Level 5 (Optimized)**, with emphasis on people and culture alongside processes.
 
-> 📖 **Strategic Asset:** [View my full QA Transformation Roadmap & Maturity Matrix](./QA_STRATEGY_ROADMAP.md)
-
+> 📖 **Strategic Roadmap:** [QA Transformation & Maturity Matrix](./01-Strategic-Governance/QA_STRATEGY_ROADMAP.md)
 ---
 
-### 🔄 AI Triage & Self-Heal Loop
+## 🤖 Gen AI-Powered Quality Strategy
+**Gen AI enhances both manual and automation testing—it's not an automation tool, it's a force multiplier.**
 
-```mermaid
-sequenceDiagram
-    participant J as Jira/Jenkins
-    participant AI as 🤖 LLM (OpenAI/Gemini)
-    participant F as 🧰 Automation Framework
-    J->>AI: 📩 Send Jira Ticket Data
-    AI->>AI: 🧠 Analyze Logic
-    AI->>F: 🛠️ Generate/Fix Page Objects & Scripts
-    F->>J: ✅ Update Ticket "automation complete"
-```
+### Manual Testing + Gen AI
+- **Exploratory Guidance:** LLMs provide context-aware testing suggestions for edge cases and risk areas
+- **Smart Defect Reporting:** Auto-summarize bugs with root cause hypotheses and reproduction steps
+- **Test Data Generation:** Synthetic, realistic test scenarios (JSON, XML, user personas) for manual test execution
+- **Accessibility & UX Insights:** AI flags potential usability issues before manual testers investigate
 
-<sub>Figure: Ticket triage to automated fix, closed-loop.</sub>
+### Automation + Gen AI
+- **Test Design Acceleration:** Generate Gherkin scenarios and test cases from user stories in seconds
+- **Self-Healing Framework:** AI-adaptive locators and intelligent retry logic for flaky test resilience
+- **Failure Triage & RCA:** Automated root-cause analysis, log parsing, and Jira ticket generation
+- **Performance Insights:** AI-powered performance profiling and bottleneck identification
 
-## 🏗️ Featured Automation Ecosystems
-
-### 📱 [Mobile Automation (Appium + BDD)](https://github.com/bastheboss7/MobileAutomation_BDD_Framework)
-* **Stack:** Java, Appium, Cucumber, TestNG.
-* **Core:** 🤖 Enterprise-grade BDD mobile automation framework for iOS & Android using Appium, Cucumber, TestNG, and BrowserStack SDK. Thread-safe parallel execution with comprehensive reporting.
-* **[🟢 View Live Test Report](https://automation.browserstack.com/reports/ac916e2b-627b-4bc5-9aa4-b2587f8cb97c?public_token=7ce047bcdca74327ea430913f82686226392d79c3f173c7d398d9cdb9bd30762)**
-
-### 🎭 [Modern Web UI (Playwright + TS)](https://github.com/bastheboss7/Playwright_WebUI)
-* **Stack:** Playwright, TypeScript, GitHub Actions.
-* **Core:** Enterprise-grade Playwright & TypeScript framework for Evri Parcel Services. Features cross-browser CI/CD with GitHub Actions and detailed artifact reporting.
-
-### 🤖 [BDD Java Enterprise Framework](https://github.com/bastheboss7/WebBrowserAutomation_BDD_Framework)
-* **Tech:** Java, Selenium, Cucumber, TestNG.
-* **Core:** UI Automated BDD Testing Framework, built with Java, Selenium, and Cucumber. Integrated with GitHub Actions & Docker containerised Jenkins for nightly CI/CD execution and live HTML reporting.
-* **[🟢 View Live Test Report](https://bastheboss7.github.io/WebBrowserAutomation_BDD_Framework/)**
-
-### ⚙️ [API & Backend (Rest-Assured)](https://github.com/bastheboss7/evri-api-automation-framework)
-* **Stack:** Java, Rest-Assured, Jackson.
-* **Core:** A robust, enterprise-grade REST API test automation framework built with Java 21, REST Assured, Cucumber BDD, and TestNG. Designed for scalability, maintainability, and comprehensive reporting for Evri's parcel delivery operations.
-
-### 🤖 [AI-Driven Quality Suite](https://github.com/bastheboss7/GenAI-Jira-Integration)
-* **Stack:** Node, OpenAI, Jira API.
-* **Core:** A full-stack app to convert user stories into structured test cases using LLMs, with React frontend and Node.js/Express backend.
-
-**Impact highlights**
-- ⏱️ 60% faster Jira triage via LLM-assisted root-cause summaries
-- 🔁 45% reduction in flaky failures using self-healing locators & prompts
-- 📈 35% uplift in regression throughput with parallelized grid runs
-- 🛡️ 30% fewer escaped defects after shift-left contract checks
-
-## 📺 Video Demo
-
-Watch a demo of the app in action:
-
-[▶️ Click here to view the video demo](https://drive.google.com/file/d/1QKkJHwcKfqYSE9t3ndEKwghyfAPDPccf/view?usp=drive_link)
-
+### Cross-Functional Impact
+- **50% reduction** in test design time (story → testable scenarios)
+- **40% fewer flaky failures** (self-healing, intelligent waits)
+- **60% faster incident triage** (AI-assisted RCA and defect summaries)
+- **Team upskilling:** Manual testers focus on strategy; automation engineers focus on architecture
 
 ---
+## 🏛️ Leadership & Quality Culture
+*Building high-trust teams that balance speed, quality, and human wellbeing.*
 
-- **Architecture:** Factory Pattern, Singleton, ThreadLocal Concurrency.
-- **Methodologies:** BDD (Gherkin), Shift-Left Testing, CI/CD Pipeline Success.
+I bring a comprehensive **QA Leadership Toolkit** across four strategic pillars:
 
-## 🤖 AI-Accelerated Engineering
-I leverage Generative AI and LLMs to compress the SDLC and build more resilient frameworks:
-- **Prompt Engineering:** Developed custom system prompts to generate Page Objects and boilerplate code, reducing manual coding time by 60%.
-- **Synthetics & Mocking:** Used LLMs to generate realistic, diverse test data (JSON/XML) for API contract testing.
-- **Architectural Partnering:** Utilized AI as a thought partner for designing thread-safe `DriverManager` patterns and complex regex for log parsing.
+1. **[Strategic Governance](/01-Strategic-Governance/)** - QA maturity roadmaps, risk-based testing frameworks, and automation strategy.
+2. **[People Operations](/02-People-Operations/)** - Skills development, team working agreements, and psychological safety.
+3. **[Operational Delivery](/03-Operational-Delivery/)** - Pre-sprint quality gates and blameless incident learning.
+4. **[Business Value & ROI](/04-Business-Value-ROI/)** - Translating quality metrics into stakeholder value and financial outcomes.
+
+## 💡 Core Capabilities
+
+### Testing Strategy
+- **Risk-Based Testing:** Data-driven approach to deciding which tests should be automated vs. manual.
+- **Exploratory Testing:** Leading skilled testers in discovering unknown unknowns through strategic, unscripted testing.
+- **Shift-Left Testing:** Embedding quality early in the development lifecycle through collaboration with developers and product teams.
+- **Gen AI-Driven Insights:** Leveraging LLMs for test design generation, failure analysis, and continuous improvement recommendations.
+
+### Technical Expertise
+- **Automation Frameworks:** Playwright, Appium, Rest-Assured, Selenium (BDD with Gherkin).
+- **Cloud-Scale Testing:** BrowserStack, Docker, parallel grid execution for Web, Mobile, and API layers.
+- **CI/CD Integration:** GitHub Actions, Jenkins pipelines, and continuous quality gates.
+- **Smart Automation:** AI-assisted test generation, self-healing selectors, and intelligent failure triage.
+
+### Gen AI Integration Capabilities
+- **Prompt Engineering:** Custom system prompts for test case generation, defect analysis, and exploratory testing guidance
+- **LLM-Driven Testing:** OpenAI/Gemini integration for real-time testing recommendations and intelligent decision-making
+- **Synthetic Data & Mocking:** AI-generated realistic test data, edge cases, and user scenarios
+- **Intelligent Triage:** Automated incident classification, RCA summaries, and Jira ticket enrichment
+
+### Delivery Track Record
+- Mobile, Web, and API automation frameworks for high-scale products
+- QA transformation initiatives: Level 1 → Level 5 maturity with Gen AI acceleration
+- Cross-functional team coaching on hybrid manual + automation + AI testing models
+- 30-50% reduction in escaped defects through risk-based strategy + Gen AI insights
+- 60% reduction in test design time using AI-assisted test case generation
 
 
 ---
 
 ## 📫 Connect with me
-- **LinkedIn:** [https://www.linkedin.com/in/baskar-padmanaban-0587001a6/]
+- **LinkedIn:** [https://www.linkedin.com/in/baskar-qa-lead/]
 - **Email:** [bskr_5chennai@yahoo.co.in]
