@@ -1,10 +1,14 @@
+
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red.svg)](/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-QA%20Leadership-blueviolet?style=for-the-badge)](/)
 [![Open Source](https://img.shields.io/badge/Open-Source-brightgreen?style=flat-square)](/)
 
-
 # Hi, I'm Baskar 👋
-### QA Leader | Risk-Based Testing & Hybrid Quality Engineering
+### QA Leadership for the Modern Era
+
+**Driving the future of QA by blending human expertise, robust automation, and Gen AI. My portfolio demonstrates proven impact across all three pillars—making me an ideal fit for Senior Manual QA, Senior Automation, and Gen AI-driven QA leadership roles.**
+
+---
 
 ![ISTQB](https://img.shields.io/badge/ISTQB_Certified-1E90FF?style=flat-square)
 ![SAFe](https://img.shields.io/badge/SAFe_Agile-0052CC?style=flat-square)
@@ -14,21 +18,56 @@
 
 ---
 
+
 ## 👨‍💻 About Me
 
-As a **QA Leader**, I build comprehensive testing strategies that balance **speed, coverage, and human insight**. I believe the best quality comes from combining automated regression with skilled manual testing—not replacing one with the other.
+**The 3-Pillar Quality Strategy**
+As a QA Leader, I build comprehensive testing ecosystems that balance speed, coverage, and human insight. My approach moves teams beyond "script-passing" and into Quality Engineering, using Gen AI as a force multiplier. For details on strategy, manual, automation, and Gen AI capabilities, see the 3 Pillars below.
 
-My approach leverages **Gen AI as a force multiplier**:
-* **Risk-Based Decision Making:** Allocating resources where they matter most—critical features and high-failure areas.
-* **Hybrid Quality Architecture:** Combining the precision of Playwright/Selenium with AI-driven exploratory insights.
-* **AI-Accelerated Engineering:** Implementing LLMs to automate the QA process & boiler plate automation codes.
-* **Organizational Maturity:** Helping teams evolve from **Level 1 (Ad-hoc)** to **Level 5 (Optimized)**, with emphasis on people and culture alongside processes.
 
-> 📖 **Strategic Roadmap:** [QA Transformation & Maturity Matrix](./01-Strategic-Governance/QA_STRATEGY_ROADMAP.md)
 
+
+🏛️ **Pillar 1: Strategic Governance & Maturity**
+Moving organizations from Ad-hoc (L1) to Optimized (L5).
+
+- **Organizational Maturity:** Implementing TMMi Level 5 standards ([QA Strategy Roadmap](./01-Strategic-Governance/QA_STRATEGY_ROADMAP.md)) with a focus on people, culture, and process.
+- **Risk-Based Testing (RBT):** Utilizing [Analytical Priority Matrices](./01-Strategic-Governance/RBT_PRIORITY_MATRIX.md) to allocate resources where they matter most.
+- **Shift-Left Leadership:** Facilitating [Three Amigos](./03-Operational-Delivery/THREE_AMIGOS_CHECKLIST.md) and Quality Gates to eliminate defects at the requirement stage.
+- **Human-Centric Manual QA:** Evolving manual testing into high-value [Exploratory Charters](./05-Practical-Examples/TEST_SCENARIO_TEMPLATES.md), Persona-based UX validation, advanced exploratory techniques, UAT/regression, and [cross-browser/manual accessibility testing](./05-Practical-Examples/DEFECT_REPORT_TEMPLATE.md).
+
+
+
+
+🤖 **Pillar 2: Technical Automation Architecture**
+Building high-performance "Golden Pipelines" and resilient frameworks.
+
+- **Enterprise Frameworks:** Architecting scalable Playwright, Selenium, and Appium frameworks ([Playwright WebUI](https://github.com/bastheboss7/Playwright_WebUI), [WebBrowserAutomation_BDD_Framework](https://github.com/bastheboss7/WebBrowserAutomation_BDD_Framework), [MobileAutomation_BDD_Framework](https://github.com/bastheboss7/MobileAutomation_BDD_Framework)) from the ground up.
+- **CI/CD Engineering:** Implementing Test Sharding and parallel execution ([Multi-Layer Automation Strategy](./01-Strategic-Governance/TECHNOLOGY_STACK.md)) to achieve the "10-Minute Feedback Loop."
+- **Hybrid Strategy:** Combining UI precision with API-driven data seeding ([API Automation](https://github.com/bastheboss7/evri-api-automation-framework)) to ensure 100% test isolation and speed.
+- **Observability:** Driving data-driven decisions through rich Allure reporting and automated failure triage ([Case Study](./04-Business-Value-ROI/CASE_STUDY_TRANSFORMATION.md)).
+- **Mentorship:** See Pillar 2 for details on team coaching, code reviews, and best practices ([Skills Matrix](./02-People-Operations/SKILLS_MATRIX.md)).
+
+
+
+
+✨ **Pillar 3: Gen AI-Accelerated Engineering**
+Leveraging LLMs as a force multiplier for the entire Quality Lifecycle.
+
+- **AI-Accelerated Design:** Using LLMs to transform User Stories into Gherkin scenarios and Page Objects ([GenAI-QA-Planning-Project](https://github.com/bastheboss7/GenAI-QA-Planning-Project), [Gen AI Transformation Guide](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md)).
+- **Intelligent Triage:** Implementing AI-driven RCA agents to parse logs and categorize failures automatically ([GenAI-Jira-Integration](https://github.com/bastheboss7/GenAI-Jira-Integration)).
+- **Exploratory Guidance:** Leveraging AI to suggest "unknown-unknown" edge cases for manual testers to validate ([Test Scenario Templates](./05-Practical-Examples/TEST_SCENARIO_TEMPLATES.md)).
+- **Synthetic Data:** Generating complex, non-PII test data sets to increase coverage without compromising security ([Gen AI Transformation Guide](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md)).
 ---
 
+
 ## 🌟 Featured Portfolio Highlights
+
+<!-- Visual: The QA Leadership Intersection -->
+<p align="center">
+    <img src="https://raw.githubusercontent.com/bastheboss7/portfolio-assets/main/qa-leadership-intersection.png" alt="Manual QA, Automation, Gen AI Intersection" width="400"/>
+    <br/>
+    <em>Manual QA, Automation, and Gen AI—where modern QA leadership meets business impact.</em>
+</p>
 
 | Category | Artifact | Impact |
 |----------|----------|--------|
@@ -95,17 +134,16 @@ This repository showcases **production-ready artifacts** I've developed across m
     └── TEST_SCENARIO_TEMPLATES.md      # BDD/Gherkin examples
 ```
 
-**🛠️ Technical Implementation (Automation Repositories)**
+## 🛠️ Unified Technical Portfolio: Automation & AI
+> **Consolidated View:** Access my production-grade frameworks across the full testing stack.
 
-For hands-on automation frameworks and live code examples, visit my technical portfolio:
-
-| Framework | Technology | Repository |
-|-----------|------------|------------|
-| 🌐 Web Automation | Java + Selenium + BDD | [WebBrowserAutomation_BDD_Framework](https://github.com/bastheboss7/WebBrowserAutomation_BDD_Framework) |
-| 📱 Mobile Testing | Java + Appium | [MobileAutomation_BDD_Framework](https://github.com/bastheboss7/MobileAutomation_BDD_Framework) |
-| 🎭 Modern Web UI | TypeScript + Playwright | [Playwright_WebUI](https://github.com/bastheboss7/Playwright_WebUI) |
-| ⚙️ API Testing | Java + Rest-Assured | [evri-api-automation-framework](https://github.com/bastheboss7/evri-api-automation-framework) |
-| 🤖 AI Integration | Python + OpenAI | [GenAI-Jira-Integration](https://github.com/bastheboss7/GenAI-Jira-Integration) |
+| Platform | Tech Stack | Architectural Highlights | Live Code |
+| :--- | :--- | :--- | :--- |
+| **🎭 Web (Modern)** | Playwright + TS | CI/CD Sharding, API-UI Hybrid, Custom Fixtures | [**View Repo**](https://github.com/bastheboss7/Playwright_WebUI) |
+| **🌐 Web (Legacy)** | Selenium + Java | BDD Gherkin, Thread-safe Grid, Extent Reports | [**View Repo**](https://github.com/bastheboss7/WebBrowserAutomation_BDD_Framework) |
+| **📱 Mobile** | Appium + Java | iOS/Android POM, Cloud-Grid Integration | [**View Repo**](https://github.com/bastheboss7/MobileAutomation_BDD_Framework) |
+| **⚙️ API** | Rest-Assured | Contract Validation, OAuth2.0, Schema Testing | [**View Repo**](https://github.com/bastheboss7/evri-api-automation-framework) |
+| **🤖 Gen AI** | Python + OpenAI | Automated RCA, AI-Jira Sync, Log Parsing | [**View Repo**](https://github.com/bastheboss7/GenAI-Jira-Integration) |
 
 > 💡 **This repo** = Strategy, frameworks, and leadership templates  
 > 💡 **Those repos** = Production-ready automation code and architecture
@@ -137,29 +175,29 @@ For hands-on automation frameworks and live code examples, visit my technical po
 - [Defect Report Template](./05-Practical-Examples/DEFECT_REPORT_TEMPLATE.md) - Professional bug tracking
 - [Test Scenario Examples](./05-Practical-Examples/TEST_SCENARIO_TEMPLATES.md) - BDD/Gherkin patterns
 
+
 ## 💡 Core Capabilities
 
-### Testing Strategy
-- **Risk-Based Testing:** Data-driven approach to deciding which tests should be automated vs. manual.
-- **Exploratory Testing:** Leading skilled testers in discovering unknown unknowns through strategic, unscripted testing.
-- **Shift-Left Testing:** Embedding quality early in the development lifecycle through collaboration with developers and product teams.
-- **Gen AI-Driven Insights:** Leveraging LLMs for test design generation, failure analysis, and continuous improvement recommendations.
+For a comprehensive view of my strategy, manual, automation, and Gen AI capabilities, see the 3 Pillars above. Key highlights include:
+
+- Risk-based and exploratory testing leadership
+- Manual QA excellence (cross-browser, accessibility, persona-based)
+- Automation architecture, CI/CD, and hybrid strategies
+- Gen AI-driven test design, triage, and synthetic data
+
+
 
 ### Technical Expertise
 
-#### 🛠️ Key Automation Frameworks
+See the Unified Technical Portfolio table above for live code and architecture highlights. For details on frameworks, CI/CD, and best practices, refer to Pillar 2.
 
-See the "🛠️ Technical Implementation (Automation Repositories)" table above for my hands-on, production-grade frameworks across Web, Mobile, API, and Gen AI. Each repo demonstrates best practices, architecture, and CI/CD integration.
-
-- **Cloud-Scale Testing:** BrowserStack, Docker, parallel grid execution for Web, Mobile, and API layers
-- **CI/CD Integration:** GitHub Actions, Jenkins pipelines, and continuous quality gates
-- **Smart Automation:** AI-assisted test generation, self-healing selectors, and intelligent failure triage
 
 ### Gen AI Integration Capabilities
-- **Prompt Engineering:** Custom system prompts for test case generation, defect analysis, and exploratory testing guidance
-- **LLM-Driven Testing:** OpenAI/Gemini integration for real-time testing recommendations and intelligent decision-making
-- **Synthetic Data & Mocking:** AI-generated realistic test data, edge cases, and user scenarios
-- **Intelligent Triage:** Automated incident classification, RCA summaries, and Jira ticket enrichment
+
+See Pillar 3 for Gen AI-driven test design, triage, synthetic data, and prompt engineering. Key results include:
+- Automated incident classification, RCA summaries, and Jira ticket enrichment
+- LLM-driven testing and real-time recommendations
+- Synthetic data and edge case generation
 
 ### Delivery Track Record
 - Mobile, Web, and API automation frameworks for high-scale products
