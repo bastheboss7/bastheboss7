@@ -50,7 +50,7 @@ We expect you to use AI to 10x your output.
 ---
 
 ### 🗣️ 4. Communication: The "Consultant" Voice
-At Sky/TCS, we are partners. 
+At (Comanpany Name), we are partners. 
 * **Instead of:** "This is broken."
 * **Try:** "I explored the MFA flow with a 3G network simulation and found a timeout issue. Should we adjust the threshold for mobile users?"
 * **AI Ethics:** Never paste client-sensitive PII into public AI tools. Always use sanitized data.
