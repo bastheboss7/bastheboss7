@@ -1,6 +1,10 @@
+
 # 🚀 Quick Start Guide
 
-> **New here?** Start with this 5-minute tour of the QA Leadership Toolkit
+> **New here?** Start with this 5-minute tour of the QA Leadership Toolkit, organized around the **3-Pillar Quality Strategy**:
+> 1. Strategic Governance & Maturity
+> 2. Technical Automation Architecture
+> 3. Gen AI-Accelerated Engineering
 
 ---
 
@@ -9,11 +13,12 @@
 ### If you have 5 minutes...
 Read the [Case Study Transformation](./04-Business-Value-ROI/CASE_STUDY_TRANSFORMATION.md) to see real-world impact
 
+
 ### If you have 15 minutes...
-Explore these three flagship artifacts:
-1. [Risk-Based Testing Matrix](./01-Strategic-Governance/RBT_PRIORITY_MATRIX.md) - How to prioritize testing effort
-2. [Gen AI Transformation](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md) - Modern quality acceleration
-3. [Three Amigos Checklist](./03-Operational-Delivery/THREE_AMIGOS_CHECKLIST.md) - Pre-sprint quality gate
+Explore these three flagship artifacts (each maps to a pillar):
+1. [Risk-Based Testing Matrix](./01-Strategic-Governance/RBT_PRIORITY_MATRIX.md) *(Pillar 1: Strategic Governance)* – How to prioritize testing effort
+2. [Three Amigos Checklist](./03-Operational-Delivery/THREE_AMIGOS_CHECKLIST.md) *(Pillar 1: Strategic Governance)* – Pre-sprint quality gate
+3. [Gen AI Transformation](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md) *(Pillar 3: Gen AI)* – Modern quality acceleration
 
 ### If you want to dive deep...
 Browse by your interest area below 👇
@@ -56,13 +61,13 @@ Browse by your interest area below 👇
 
 ## 📋 Most Popular Artifacts
 
-| Rank | Document | Use Case | Difficulty |
-|------|----------|----------|------------|
-| 🥇 | [Risk-Based Testing Matrix](./01-Strategic-Governance/RBT_PRIORITY_MATRIX.md) | Prioritize testing effort | Intermediate |
-| 🥈 | [Defect Report Template](./05-Practical-Examples/DEFECT_REPORT_TEMPLATE.md) | Professional bug tracking | Beginner |
-| 🥉 | [Gen AI Transformation](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md) | Modernize QA strategy | Advanced |
-| 4️⃣ | [Three Amigos Checklist](./03-Operational-Delivery/THREE_AMIGOS_CHECKLIST.md) | Sprint planning quality gate | Beginner |
-| 5️⃣ | [Skills Matrix](./02-People-Operations/SKILLS_MATRIX.md) | Team development | Intermediate |
+| Rank | Document | Use Case | Pillar | Difficulty |
+|------|----------|----------|--------|------------|
+| 🥇 | [Risk-Based Testing Matrix](./01-Strategic-Governance/RBT_PRIORITY_MATRIX.md) | Prioritize testing effort | 1 | Intermediate |
+| 🥈 | [Defect Report Template](./05-Practical-Examples/DEFECT_REPORT_TEMPLATE.md) | Professional bug tracking | 1 | Beginner |
+| 🥉 | [Gen AI Transformation](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md) | Modernize QA strategy | 3 | Advanced |
+| 4️⃣ | [Three Amigos Checklist](./03-Operational-Delivery/THREE_AMIGOS_CHECKLIST.md) | Sprint planning quality gate | 1 | Beginner |
+| 5️⃣ | [Skills Matrix](./02-People-Operations/SKILLS_MATRIX.md) | Team development | 1 | Intermediate |
 
 ---
 
@@ -99,6 +104,12 @@ Found these helpful? Here's how you can engage:
 
 ---
 
-**Ready to explore? Pick a path above and dive in! 🚀**
+
+---
+
+**Ready to explore?**
+For a deep dive into the philosophy and structure behind this toolkit, see the [README 3-Pillar Overview](./README.md#about-me).
+
+Pick a path above and dive in! 🚀
 
 [← Back to Main README](./README.md)
