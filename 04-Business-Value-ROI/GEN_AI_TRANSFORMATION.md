@@ -38,6 +38,6 @@ I architected a workflow using **GPT-4o/Gemini Pro** to act as a "Co-Pilot" for 
 ---
 
 ### 🧠 Leadership Philosophy: "Augmentation, Not Replacement"
-A key part of my leadership at **Sky** was addressing the "Emotional Side" of AI. 
+A key part of my leadership was addressing the "Emotional Side" of AI. 
 - I held workshops to show the team that AI handles the **boring repetitive tasks**, allowing them to focus on **Creative Exploratory Testing**. 
 - This increased team morale and transformed "Manual Testers" into "AI-Assisted Quality Engineers."
