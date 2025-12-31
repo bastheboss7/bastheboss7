@@ -1,5 +1,5 @@
 # 🏆 Case Study: TMMi-Driven Strategic Transformation
-**Project:** My Sky App - Digital Transformation
+**Project:** Mobile App - Digital Transformation
 **Role:** Lead QA Consultant
 **Framework:** TMMi (Test Maturity Model integration) Level 2 to Level 5 Transition
 
@@ -20,7 +20,7 @@ I implemented the **[Team Working Agreement (TWA)](../02-People-Operations/TEAM_
 
 ### Phase 2: TMMi Level 3 (Defined) - Process Standardization
 I introduced the **[Three Amigos Checklist](../03-Operational-Delivery/THREE_AMIGOS_CHECKLIST.md)** to "Shift-Left."
-* **Action:** Standardized the 'Definition of Ready' (DoR) and 'Definition of Done' (DoD) across all 12 engineers. 
+* **Action:** Standardized the 'Definition of Ready' (DoR) and 'Definition of Done' (DoD) across all engineers. 
 * **TMMi Focus:** Ensuring that testing is no longer a separate phase but integrated into the entire lifecycle.
 
 ### Phase 3: TMMi Level 4 (Measured) - The "Skills Bridge" 
