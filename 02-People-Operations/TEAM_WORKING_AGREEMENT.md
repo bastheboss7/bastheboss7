@@ -12,4 +12,4 @@
 
 ### 3. Empowerment & Autonomy
 * **The "How":** As a Lead, I define the 'What' (Goals) and 'Why' (Value). The Engineer defines the 'How' (Implementation).
-* **Skills Matrix:** Performance is measured against an objective matrix, ensuring fair growth opportunities for all 12+ team members.
+* **Skills Matrix:** Performance is measured against an objective matrix, ensuring fair growth opportunities for all team members.
