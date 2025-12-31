@@ -15,7 +15,7 @@ When I joined the team, the QA function was operating at **TMMi Level 1 (Initial
 
 ### Phase 1: TMMi Level 2 (Managed) - Establishing Control
 I implemented the **[Team Working Agreement (TWA)](./02-People-Operations/TEAM_WORKING_AGREEMENT.md)** and standardized documentation.
-* **Action:** Created the first **Master Test Strategy** and **[Risk-Based Testing (RBT) Matrix](./01-Strategic-Governance/RBT_PRIORITY_MATRIX.md)**.
+* **Action:** Created the first **[Master Test Strategy](./01-Strategic-Governance/MASTER_TEST_STRATEGY.md)-** and **[Risk-Based Testing (RBT) Matrix](./01-Strategic-Governance/RBT_PRIORITY_MATRIX.md)**.
 * **TMMi Focus:** Moving from "Ad-hoc" to "Managed" testing where every project has a repeatable plan.
 
 ### Phase 2: TMMi Level 3 (Defined) - Process Standardization
