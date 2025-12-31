@@ -15,22 +15,23 @@ When I joined the team, the QA function was operating at **TMMi Level 1 (Initial
 
 ### Phase 1: TMMi Level 2 (Managed) - Establishing Control
 I implemented the **[Team Working Agreement (TWA)](../02-People-Operations/TEAM_WORKING_AGREEMENT.md)** and standardized documentation.
-* **Action:** Created the first **[Master Test Strategy](../01-Strategic-Governance/MASTER_TEST_STRATEGY.md)-** and **[RBT Priority Matrix](../01-Strategic-Governance/RBT_PRIORITY_MATRIX.md)**.
+* **Action:** Created the first **[Master Test Strategy](../01-Strategic-Governance/MASTER_TEST_STRATEGY.md)-** and **[RBT Priority Matrix](../01-Strategic-Governance/RBT_PRIORITY_MATRIX.md)**; introduced basic local automation scripts for repeatable regression.
 * **TMMi Focus:** Moving from "Ad-hoc" to "Managed" testing where every project has a repeatable plan.
 
 ### Phase 2: TMMi Level 3 (Defined) - Process Standardization
 I introduced the **[Three Amigos Checklist](../03-Operational-Delivery/THREE_AMIGOS_CHECKLIST.md)** to "Shift-Left."
-* **Action:** Standardized the 'Definition of Ready' (DoR) and 'Definition of Done' (DoD) across all engineers. 
+* **Action:** Standardized the 'Definition of Ready' (DoR) and 'Definition of Done' (DoD) across all engineers; migrated automation to version control and integrated with on-prem Jenkins for CI.
 * **TMMi Focus:** Ensuring that testing is no longer a separate phase but integrated into the entire lifecycle.
 
 ### Phase 3: TMMi Level 4 (Measured) - The "Skills Bridge" 
 I deployed the **[Engineering Skills Matrix](../02-People-Operations/SKILLS_MATRIX.md)** to quantify team capability.
-* **Action:** Every manual tester moved through an Individual Development Plan (IDP) to learn Playwright.
+
+* **Action:** Every manual tester moved through an Individual Development Plan (IDP) to learn Playwright; containerized Jenkins and enabled parallel test execution in Docker for scalable automation.
 * **TMMi Focus:** Measuring software quality and test process performance using data-driven KPIs (Defect Density, Automation ROI).
 
 ### Phase 4: TMMi Level 5 (Optimized) - AI Augmentation
 I integrated the **[GenAI Test Design Utility](./GEN_AI_TRANSFORMATION.md)** to prevent defects.
-* **Action:** We used LLMs to auto-generate Gherkin scenarios and identify edge cases during the design phase.
+* **Action:** We used LLMs to auto-generate Gherkin scenarios and identify edge cases during the design phase; leveraged [BrowserStack cloud](https://automation.browserstack.com/reports/ac916e2b-627b-4bc5-9aa4-b2587f8cb97c?public_token=7ce047bcdca74327ea430913f82686226392d79c3f173c7d398d9cdb9bd30762) for cross-platform automation at scale.
 * **TMMi Focus:** **Defect Prevention.** Using technology to optimize the process continuously.
 
 ---
