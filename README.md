@@ -6,6 +6,8 @@
 # Hi, I'm Baskar 👋
 ### QA Leadership for the Modern Era
 
+**Read my [Quality Engineering Manifesto](01-Strategic-Governance/QA_PRINCIPLES.md) to understand my leadership philosophy.**
+
 **Driving the future of QA by blending human expertise, robust automation, and Gen AI. My portfolio demonstrates proven impact across all three pillars—making me an ideal fit for Senior Manual QA, Senior Automation, and Gen AI-driven QA leadership roles.**
 
 ---
