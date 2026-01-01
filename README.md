@@ -158,7 +158,10 @@ This repository showcases **production-ready artifacts** I've developed across m
 ### Quick Navigation by Role
 
 **👔 For Hiring Managers & Executives:**
+
+- [30-60-90 Day Plan](./01-Strategic-Governance/30_60_90_DAY_PLAN.md) - My roadmap for Day 1 impact
 - [QA Transformation Case Study](./04-Business-Value-ROI/CASE_STUDY_TRANSFORMATION.md) - Real impact with metrics
+- [Resourcing Strategy](./02-People-Operations/RESOURCING_STRATEGY.md) - Scaling & Talent management
 - [Gen AI Strategy & ROI](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md) - Modernization approach
 - [QA Value Report Template](./04-Business-Value-ROI/QA_VALUE_REPORT.md) - How I report to leadership
 
