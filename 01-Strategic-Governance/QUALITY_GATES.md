@@ -33,7 +33,6 @@ To ensure Gate 3 is both thorough and performant, we utilize a **Tiered Automati
 
 * **Mandatory Pass:** All tests tagged `@smoke` (Critical Path) must pass 100%.
 * **Regression Requirement:** Tests tagged `@regression` (High/Medium Risk) must pass >98%.
-* **Reference:** See the full [Automation Tagging Strategy](./AUTOMATION_TAGGING_STRATEGY.md) for technical implementation details.
 
 ### 🚪 Gate 4: Release Readiness (Leadership Level)
 *Owner: Lead QA Consultant*
