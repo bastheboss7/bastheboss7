@@ -1,102 +1,82 @@
 # 🔍 Blameless Root Cause Analysis (RCA)
-## Culture: Learning Over Blame
 
-**Core Principle:** Incidents are opportunities to improve systems, not opportunities to blame people.  
-Every incident has multiple contributing factors—fix the system, not the person.
+> **Our Core Principle:** Incidents are opportunities to improve our systems, not to blame individuals. We believe every incident has multiple contributing factors, and our goal is to fix the system, not the person.
 
----
-
-## When to Trigger RCA
-
-✅ **Production incidents** with customer impact  
-✅ **Critical test failures** that slipped through (escaped defects)  
-✅ **Automation gaps** discovered in production  
-✅ **Manual testing oversights** (exploratory blindspots)  
-✅ **Process breakdowns** (Three Amigos skipped, RBT not followed)  
-✅ **Near-misses** (almost-failures caught in UAT)  
+This document outlines a structured, blameless process for analyzing incidents to drive continuous improvement.
 
 ---
 
-## Example: Dark Mode Login Failure
+## 🎯 When to Conduct an RCA
 
-**What Happened?** Login failed for Dark Mode users on Safari—critical path broken for 2% of users.  
-**Impact:** 45-minute outage, customer frustration, media coverage risk.  
+An RCA should be triggered for any of the following events:
+-   **Production Incidents:** Any issue that has a direct impact on customers.
+-   **Escaped Defects:** Critical bugs that were missed in testing and discovered in production.
+-   **Process Breakdowns:** Failures caused by not following established processes, such as skipping the [Three Amigos](./THREE_AMIGOS_CHECKLIST.md) or not applying the [RBT Priority Matrix](./../01-Strategic-Governance/RBT_PRIORITY_MATRIX.md).
+-   **Near-Misses:** Critical issues that were caught just before a release, indicating a gap in the process.
 
 ---
 
-## RCA Process (The 5-Whys, Systems-Focused)
+## ⚙️ The RCA Process: A 5-Whys, Systems-Focused Approach
+
+We use the "5 Whys" technique to systematically drill down to the root cause of an issue, focusing on system and process failures rather than individual errors.
+
+### Example: Login Failure in Dark Mode
+
+-   **What Happened?** The login feature failed for users on Safari with Dark Mode enabled, blocking a critical user path.
+-   **Impact:** A 45-minute outage for 2% of users, leading to customer frustration and potential brand damage.
 
 | Question | Answer | Root Cause Category |
 |----------|--------|---------------------|
-| **Why did login fail?** | CSS layer overlapped the Sign-In button | Technical defect |
-| **Why wasn't this caught in testing?** | Playwright tests only ran in Light Mode | Automation strategy gap |
-| **Why wasn't Dark Mode tested?** | Risk assessment (RBT matrix) missed UI theming | Missing exploratory context |
-| **Why wasn't Dark Mode considered high-risk?** | "UI enhancement" label—not flagged as critical path | Risk classification error |
-| **Why did we misclassify the risk?** | No manual exploratory testing for theme variations | Manual testing gap |
+| **Why did login fail?** | A CSS layer overlapped the "Sign In" button, making it unclickable. | Technical Defect |
+| **Why wasn't this caught in testing?** | The automated test suite only ran in Light Mode. | Automation Strategy Gap |
+| **Why wasn't Dark Mode tested?** | The risk assessment did not include UI theming as a factor. | Exploratory Testing Gap |
+| **Why wasn't Dark Mode considered high-risk?** | It was labeled a "UI enhancement," not a critical path feature. | Risk Classification Error |
+| **Why did we misclassify the risk?** | Our [RBT Priority Matrix](./../01-Strategic-Governance/RBT_PRIORITY_MATRIX.md) did not account for theme variations. | Process Gap |
 
 ---
 
-## Gen AI-Assisted RCA (Accelerator)
+## 🤖 Gen AI-Assisted RCA (Accelerator)
 
-**How Gen AI enhances the RCA process:**
+We leverage Gen AI to accelerate the RCA process, but human judgment remains central.
 
-- **Automated Failure Analysis:** AI ingests logs, stack traces, and test output; identifies patterns and suggests root causes
-- **Intelligent Triage:** LLM auto-classifies incidents (automation gap vs. manual gap vs. process gap)
-- **RCA Summarization:** Gen AI drafts initial RCA document with 5-Whys chain; humans validate/refine
-- **Corrective Action Suggestions:** AI proposes preventive measures based on historical incident patterns
+-   **Automated Analysis:** An AI can ingest logs and test results to identify patterns and suggest potential root causes.
+-   **Intelligent Triage:** An LLM can help classify the incident (e.g., automation gap vs. process gap).
+-   **Drafting the RCA:** Gen AI can draft the initial RCA document, which humans then validate and refine.
 
-**Example:**
-> **AI Summary:** "Dark Mode CSS layer issue. Playwright tests insufficient (Light Mode only). Exploratory testing guidance was missing. RBT matrix didn't account for visual variations. Suggest: Add Dark Mode to config, train exploratory testers, add visual accessibility to RBT."
-
-**Human Step:** Review AI analysis, validate root causes, confirm corrective actions align with team values.
-
-*Note: Gen AI accelerates analysis; humans ensure blameless, learning-focused culture.*
+*Note: Gen AI is a tool to augment our analysis; it does not replace our commitment to a blameless, learning-focused culture.*
 
 ---
 
-## Key Insights (Not Blame)
+## 💡 Key Insights (Not Blame)
 
-🔴 **Automation Alone Failed:** Playwright regression only covered Light Mode  
-🔴 **Manual Gap:** Exploratory testers weren't briefed on Dark Mode risks  
-🔴 **Strategy Gap:** RBT matrix didn't account for visual/theme variations  
-🔴 **Process Gap:** Three Amigos meeting didn't discuss "theme combinations"  
-
-**None of these are "someone's fault"—they're system improvements.**
+From the example above, the key takeaways are system-level improvements, not individual faults:
+-   **Automation Gap:** Our test suite lacked coverage for different UI themes.
+-   **Manual Gap:** Our exploratory testing charters did not include guidance on theme-related risks.
+-   **Process Gap:** Our risk assessment framework needed to be updated to include visual and theme variations.
 
 ---
 
-## Corrective Actions (Process, Not People)
+## 🛠️ Corrective Actions (Process-Oriented)
 
-### Immediate (24 hours)
-- [ ] **Automation:** Add Dark Mode to Playwright test `config` (10% of regression runs)
-- [ ] **Manual:** Brief team on visual regression scenarios (theme × browser × device)
+### Immediate (Within 24 hours)
+-   [ ] **Automation:** Add Dark Mode to the Playwright test configuration.
+-   [ ] **Manual:** Brief the team on visual regression scenarios to test.
 
-### Structural (Next sprint)
-- [ ] **RBT Update:** Add "Visual & Theme Combinations" to critical path assessment
-- [ ] **Three Amigos:** Add "Theme/Accessibility Verification" checklist item
-- [ ] **Exploratory Testing:** Train team on theme/contrast edge cases (user accessibility)
+### Structural (Next Sprint)
+-   [ ] **RBT Update:** Add "Visual & Theme Combinations" to the critical path assessment in the [RBT Priority Matrix](./../01-Strategic-Governance/RBT_PRIORITY_MATRIX.md).
+-   [ ] **Three Amigos Update:** Add a "Theme & Accessibility Verification" item to the [Three Amigos Checklist](./THREE_AMIGOS_CHECKLIST.md).
 
-### Long-term (1-3 months)
-- [ ] **Visual Regression Tool:** Implement automated visual diffing (Playwright/Percy)
-- [ ] **Manual Training:** Workshop on accessibility-first testing (Dark Mode, WCAG compliance)
-- [ ] **RBT Refinement:** Include "Visual Accessibility" as core risk dimension
+### Long-Term (1-3 Months)
+-   [ ] **Tooling:** Implement an automated visual regression tool (e.g., Playwright with Percy).
+-   [ ] **Training:** Conduct a workshop on accessibility-first testing, including Dark Mode and WCAG compliance.
 
 ---
 
-## Blameless RCA Meeting Notes
+## 💬 The Blameless RCA Meeting
 
-**Attendees:** Dev lead, QA lead, Product manager, Automation engineer, Manual testers  
-**Tone:** Curiosity, not judgment. "Why did we miss this?" not "Who screwed up?"  
-
-**Conversation:**
-- ✅ "Playwright strategy was good for happy path, but visibility needed expansion."
-- ✅ "Exploratory testing could have caught this with right guidance."
-- ✅ "RBT missed a category—UI theming is now flagged as critical."
-- ❌ Don't say: "QA should have found this."
-- ❌ Don't say: "The tester wasn't thorough."
-- ❌ Don't say: "We need to blame someone."
-
----
+-   **Attendees:** Dev Lead, QA Lead, Product Manager, and the engineers involved.
+-   **Tone:** The conversation is driven by curiosity, not judgment. We ask, "How did we miss this?" not "Who made a mistake?"
+-   **Focus:** The discussion centers on improving the system to prevent the issue from recurring.
 
 ## Why This Matters
 

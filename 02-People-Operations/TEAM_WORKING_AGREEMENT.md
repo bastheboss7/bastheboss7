@@ -1,60 +1,63 @@
 # 🤝 Team Working Agreement (TWA)
-> **Version:** 1.0  
-> **Mission:** To maintain a 5:1 Dev-to-QA ratio through radical transparency, technical excellence, and shared accountability.
+
+> **Our Mission:** To build a high-trust, high-performance QA team that balances speed with quality, guided by principles of radical candor, empowerment, and objective growth.
+
+This document outlines the shared behaviors and standards we commit to as a team. It is a living document, reviewed and updated quarterly.
 
 ---
 
-## 💎 1. Core Values: The "How We Lead"
-Our culture is built on three non-negotiable pillars that allow us to scale quality without micromanagement.
+## 💎 Core Values: The Foundation of Our Culture
 
-### 🔴 Radical Candor
-* **Challenge Directly, Care Personally:** We speak up early if a deadline is at risk. There are no "bad news" penalties.
-* **Greenmelon Prevention:** We value a "Red" status reported early over a "Green" status that hides a disaster.
+Our culture is built on three non-negotiable pillars that enable us to scale quality effectively.
 
-### 🗽 Empowerment & Autonomy
-* **The "What" vs. The "How":** Leads define the 'What' (Business Value) and 'Why' (Risk). The Engineer defines the 'How' (Technical Implementation).
-* **Stop-the-Line Authority:** Every QA Engineer is empowered to veto a release if a [Quality Gate](../01-Strategic-Governance/QUALITY_GATES.md) is breached.
+### Radical Candor
+-   **Challenge Directly, Care Personally:** We provide feedback that is both kind and clear. We address issues early and constructively, without fear of blame.
+-   **No "Green-Shifting":** We value a "Red" status reported early over a "Green" status that hides a potential disaster. Transparency is our default.
 
-### 📈 Objective Growth (Skills Matrix)
-* **Competency-Based Trust:** Autonomy is linked to the [Skills Matrix](./SKILLS_MATRIX.md). As you level up, your decision-making authority increases.
+### Empowerment & Autonomy
+-   **"What" vs. "How":** Leadership defines the "what" (business goals) and the "why" (risk context). Engineers are empowered to define the "how" (technical implementation).
+-   **Stop-the-Line Authority:** Every QA Engineer has the authority to veto a release if a critical [Quality Gate](../01-Strategic-Governance/QUALITY_GATES.md) is breached, ensuring quality is never compromised.
 
----
-
-## 🛠️ 2. Operational Standards
-
-### 🛡️ The "Three Amigos" Protocol
-No ticket moves to "In Progress" until a Developer, Tester, and Product Owner have agreed on:
-1.  **Gherkin Acceptance Criteria** (Success).
-2.  **RBT Score** (Risk).
-3.  **Testability** (Can we automate this?).
-
-### 🤖 Automation-First Mindset
-* **Skeleton Phase:** Automation "skeletons" (Page Objects/Mocks) must be written *before* the Dev finishes the UI.
-* **The 10-Minute Rule:** If the smoke suite takes longer than 10 minutes, we refactor or prune.
-
-### 🧠 Manual Exploratory Standard
-* Manual testing is reserved for **High-Value Discovery**, not repetitive checking. 
-* All manual sessions must have a **Charter** and a **Time-box** (60-90 mins).
+### Objective Growth
+-   **Competency-Based Trust:** Autonomy and responsibility are linked to the [Skills Matrix](./SKILLS_MATRIX.md). As team members level up, their decision-making authority expands.
+-   **Continuous Improvement:** We are all committed to personal and professional growth, supported by mentorship and clear development plans.
 
 ---
 
-## 🔄 3. Communication & Feedback
+## 🛠️ Operational Standards: How We Execute
+
+### The "Three Amigos" Protocol
+-   No ticket moves to "In Progress" until a Developer, Tester, and Product Owner have aligned on the acceptance criteria using the [Three Amigos Checklist](../03-Operational-Delivery/THREE_AMIGOS_CHECKLIST.md). This ensures shared understanding before any code is written.
+
+### Automation-First Mindset
+-   **Write Tests First:** Automation "skeletons" (e.g., Page Objects, API mocks) are created *before* the developer completes the UI, enabling parallel workstreams.
+-   **The 10-Minute Rule:** If the primary regression suite takes longer than 10 minutes to run, we prioritize refactoring or pruning to maintain rapid feedback loops.
+
+### High-Value Manual Testing
+-   **Discovery, Not Repetition:** Manual testing is reserved for high-value discovery work, such as exploratory, usability, and security testing—not for repetitive checks.
+-   **Chartered Sessions:** All manual testing sessions must have a clear **charter** defining the scope and goals, and be time-boxed (typically 60-90 minutes).
+
+---
+
+## 🔄 Communication & Feedback Loops
 
 | Event | Protocol | Goal |
 | :--- | :--- | :--- |
-| **Daily Stand-up** | Focus on Blockers and "Red" flags, not just "What I did." | Risk Mitigation. |
-| **Pull Requests** | QA reviews Dev Unit Tests; Dev reviews QA Automation. | Cross-Skilling. |
-| **Post-Mortems** | [Blameless RCAs](../03-Operational-Delivery/BLAMELESS_RCA.md) only. We fix the process, not the person. | Continuous Improvement. |
+| **Daily Stand-up** | Focus on blockers and "Red" flags first, not just status updates. | Proactive Risk Mitigation. |
+| **Pull Requests** | QA reviews developer unit tests; developers review QA automation code. | Shared Ownership & Cross-Skilling. |
+| **Post-Mortems** | We conduct [Blameless RCAs](../03-Operational-Delivery/BLAMELESS_RCA.md) to fix the process, not to blame individuals. | Continuous System Improvement. |
 
 ---
 
-## ⚖️ 4. Conflict Resolution
-If the team cannot agree on a "Release/No-Release" decision:
-1.  Consult the **[RBT Priority Matrix](../01-Strategic-Governance/RBT_PRIORITY_MATRIX.md)**.
-2.  Review the **[Quality Gates](../01-Strategic-Governance/QUALITY_GATES.md)**.
-3.  If the score is **Critical (15-25)** and gates are failing, the Lead QA has final Veto Power.
+## ⚖️ Conflict Resolution
+
+If the team cannot reach a consensus on a "Release/No-Release" decision:
+1.  **Consult the Data:** We first refer to the [RBT Priority Matrix](../01-Strategic-Governance/RBT_PRIORITY_MATRIX.md) to assess the risk level.
+2.  **Review the Gates:** We then check if any hard requirements from the [Quality Gates](../01-Strategic-Governance/QUALITY_GATES.md) have been missed.
+3.  **Lead's Decision:** If the risk score is **Critical (15-25)** and a quality gate is failing, the QA Lead has the final veto power to ensure we protect our users.
 
 ---
 
-## 🏁 Agreement
-By joining this squad, we commit to these standards to ensure we ship high-quality software at **Sky-speed** without burnout.
+## 🏁 Our Commitment
+
+By joining this team, we all commit to upholding these standards. This agreement empowers us to ship high-quality software at a sustainable pace, fostering a culture of excellence and psychological safety.

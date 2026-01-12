@@ -136,6 +136,31 @@ This repository showcases **production-ready artifacts** I've developed across m
     └── TEST_SCENARIO_TEMPLATES.md      # BDD/Gherkin examples
 ```
 
+---
+
+## 🔬 Specialized Frameworks for Advanced QA Leadership
+
+This section contains expert-level resources for addressing specific, complex challenges in modern QA organizations.
+
+### 1. Architecting a Scalable QA Ecosystem
+*For Technology Leaders & Architects*
+-   **[Technology Stack Selection](./01-Strategic-Governance/TECHNOLOGY_STACK.md)**: A framework for evaluating and choosing the right automation and testing tools for long-term success.
+-   **[Automation Standards Governance](./03-Operational-Delivery/AUTOMATION_STANDARDS_GOVERNANCE.md.md)**: Best practices for enforcing code quality, consistency, and maintainability across a large automation codebase.
+-   **[Automation ROI Model](./04-Business-Value-ROI/AUTOMATION_ROI_MODEL.md)**: A financial model to justify technology investments and prove the business value of automation.
+
+### 2. Strategic Resource & Vendor Management
+*For Senior Managers & Directors*
+-   **[Resourcing Strategy](./02-People-Operations/RESOURCING_STRATEGY.md)**: A guide to team design, talent allocation, and scaling a QA organization to meet business demand.
+-   **[Vendor Governance Checklist](./02-People-Operations/VENDOR_GOVERNANCE_CHECKLIST.md)**: A framework for managing third-party relationships and ensuring quality from external partners and tools.
+
+### 3. Ensuring Continuous Quality & Governance
+*For Operational Excellence & Governance Teams*
+-   **[Quality Gates](./01-Strategic-Governance/QUALITY_GATES.md)**: A framework defining the non-negotiable quality standards that every feature must meet before release.
+-   **[Continuous Quality Monitoring](./01-Strategic-Governance/CONTINUOUS_QUALITY_MONITORING.md)**: A strategy for post-production monitoring to catch issues before they impact a wide audience.
+-   **[Bypass & Exception Log](./05-Practical-Examples/BYPASS_EXCEPTION_LOG.md)**: A process for managing exceptions and tracking technical debt when a quality gate must be bypassed.
+
+---
+
 ## 🛠️ Unified Technical Portfolio: Automation & AI
 > **Consolidated View:** Access my production-grade frameworks across the full testing stack.
 

@@ -1,0 +1,13 @@
+*.md
+!README.md
+!CONTRIBUTING.md
+!ROADMAP.md
+!QUICK_START.md
+!01-Strategic-Governance/*.md
+!02-People-Operations/*.md
+!03-Operational-Delivery/*.md
+!04-Business-Value-ROI/*.md
+!05-Practical-Examples/*.md
+ACTION_CHECKLIST.md
+GITHUB_SHOWCASE_GUIDE.md
+PORTFOLIO_PITCH_DECK.md
