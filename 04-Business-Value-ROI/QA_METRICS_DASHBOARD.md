@@ -31,7 +31,7 @@
 | KPI | Target | Strategic Insight |
 | :--- | :--- | :--- |
 | **Defect Detection Percentage (DDP)** | > 90% | What % of bugs did QA find vs. the customer? |
-| **Test Execution Velocity** | Increasing | Measures the impact of [Gen AI Acceleration](./GEN_AI_TRANSFORMATION.md). |
+| **Test Execution Velocity** | Increasing | Measures the impact of [Gen AI Acceleration](./CASE_STUDY_GENAI_AUGMENTED_TEST_DESIGN.md). |
 | **Mean Time to Detect (MTTD)** | < 1 Hour | How fast does our automation catch a breaking change in the pipeline? |
 
 ---
@@ -42,7 +42,7 @@
 | KPI | Target | Executive Value |
 | :--- | :--- | :--- |
 | **Defect Leakage (Escaped Bugs)** | < 2% (P0/P1) | The primary metric for [Risk-Based Testing](../01-Strategic-Governance/RBT_PRIORITY_MATRIX.md) success. |
-| **Mean Time to Repair (MTTR)** | < 4 Hours | Speed of recovery, supported by [AI-Driven RCA](../04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md). |
+| **Mean Time to Repair (MTTR)** | < 4 Hours | Speed of recovery, supported by [AI-Driven RCA](../04-Business-Value-ROI/CASE_STUDY_GENAI_AUGMENTED_TEST_DESIGN.md). |
 | **Cost of Quality (CoQ)** | Decreasing YoY | Proving the [Automation ROI](./AUTOMATION_ROI_MODEL.md) is actually hitting the bottom line. |
 
 ---

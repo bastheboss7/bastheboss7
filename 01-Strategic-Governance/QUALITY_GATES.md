@@ -41,6 +41,13 @@ To ensure Gate 3 is both thorough and performant, we utilize a **Tiered Automati
 - [ ] **The 10-Minute Rule:** Pipeline suites must complete in <10 mins to maintain release velocity.
 - [ ] **RCA Closure:** Any blockers from the previous sprint must have a completed **Blameless RCA**.
 
+### 🚪 Gate 5: Post-Deployment Monitoring (Live)
+*Owner: QA Unit | Tooling: Playwright, New Relic/Sentry*
+
+- [ ] **Synthetic Production Smoke:** Playwright scripts running every 15 mins in Prod for core flows (MFA/Login).
+- [ ] **Real-User Monitoring (RUM):** Integrating with tools like New Relic/Sentry to monitor JS errors in the wild.
+- [ ] **Alerting:** Automated Slack triggers for any failure in the Production Smoke suite.
+
 ---
 
 > [!IMPORTANT]
@@ -56,5 +63,29 @@ In the event of a critical production hotfix where speed is the priority:
 
 ---
 
+## 📱 App Store Intelligence & Device Strategy
+We treat the **Google Play** and **Apple App Store** as our most honest "QA environment."
+
+* **Sentiment Analysis:** Weekly audit of ratings < 3 stars.
+* **Evidence-Based Reproduction:** When a user reports a crash, we use the specific device/OS combination (e.g., Samsung S22/Android 14) from our **Cloud Grid (BrowserStack)** to reproduce.
+* **Closing the Loop:** Every "1-star" bug reproduction is tagged as a High-Priority RCA to prevent recurrence.
+
+---
+
+## 📈 Strategic Resource Reinvestment
+In a balanced team, we do not waste surplus time on low-value testing. Instead, we convert "Surplus Capacity" into **Technical Equity**.
+
+### When the [RBT Matrix](./RBT_PRIORITY_MATRIX.md) shows Low Risk:
+| Reinvestment Area | Activity |
+| :--- | :--- |
+| **Innovation Backlog** | Building AI-driven test data generators for Developers. |
+| **Chaos Engineering** | Injecting failures into API mocks to test system resilience. |
+| **Performance Budgets**| Baselining API response times to prevent "Speed Creep." |
+| **Framework Pruning** | Reducing CI/CD execution time to meet the **10-Minute Rule**. |
+
+---
+
 ### 🧠 Leadership Philosophy
 By implementing these gates, we move away from "Rude" or "Policing" management. The **system** enforces the quality, allowing the Lead to act as a **Mentor** rather than a "Gatekeeper."
+
+> "We don't just wait for the next sprint. By monitoring the App Store and running Production Smoke tests, we act as the **Voice of the Customer**. When the workload is light, we don't idle; we engineer the tools that will make the *next* high-risk sprint move faster."

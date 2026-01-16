@@ -20,7 +20,7 @@ If you have 15 minutes, these artifacts provide a comprehensive look at the tool
 1. 📖 **[Read the Main README](./README.md)**: Understand the 3-Pillar philosophy.
 2. 📈 **[See the Impact](./04-Business-Value-ROI/CASE_STUDY_TRANSFORMATION.md)**: A real-world case study of QA transformation.
 3. 🧠 **[Explore the Strategy](./01-Strategic-Governance/RBT_PRIORITY_MATRIX.md)**: The cornerstone of risk-based testing.
-4. 🤖 **[Discover the Future](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md)**: How Gen AI accelerates quality.
+4. 🤖 **[Discover the Future](./04-Business-Value-ROI/CASE_STUDY_GENAI_AUGMENTED_TEST_DESIGN.md)**: How Gen AI accelerates quality.
 
 ---
 
@@ -50,7 +50,7 @@ This toolkit is designed for everyone in the quality ecosystem.
 *   **👔 For Hiring Managers & Executives:**
     *   [30-60-90 Day Plan](./01-Strategic-Governance/30_60_90_DAY_PLAN.md): See the roadmap for impact from day one.
     *   [QA Transformation Case Study](./04-Business-Value-ROI/CASE_STUDY_TRANSFORMATION.md): Review real-world results with metrics.
-    *   [Gen AI Strategy & ROI](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md): Understand the approach to modernization.
+    *   [Gen AI Strategy & ROI](./04-Business-Value-ROI/CASE_STUDY_GENAI_AUGMENTED_TEST_DESIGN.md): Understand the approach to modernization.
 
 *   **🎯 For QA Leaders & Peers:**
     *   [Risk-Based Testing Matrix](./01-Strategic-Governance/RBT_PRIORITY_MATRIX.md): Implement a robust decision framework.

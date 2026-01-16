@@ -23,7 +23,7 @@ This document outlines the core convictions that drive my leadership. These prin
 
 ## 🤖 5. AI as a Force Multiplier, Not a Replacement
 * **Principle:** Gen AI should be used to eliminate "Testing Toil" (boilerplate code, log parsing, data generation).
-* **In Practice:** We leverage [AI-Accelerated Design](../04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md) to speed up our engineering cycles, allowing the team to focus on complex architecture and user experience.
+* **In Practice:** We leverage [AI-Accelerated Design](../04-Business-Value-ROI/CASE_STUDY_GENAI_AUGMENTED_TEST_DESIGN.md) to speed up our engineering cycles, allowing the team to focus on complex architecture and user experience.
 
 ## 🌱 6. Psychological Safety & Blameless Culture
 * **Principle:** A team that is afraid to fail cannot innovate.

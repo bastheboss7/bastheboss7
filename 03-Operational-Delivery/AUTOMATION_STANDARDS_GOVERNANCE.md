@@ -1,6 +1,14 @@
-# Unified Automation Code Review Checklist
+# Automation Governance and Standards
 
-## Core Global Standards
+## 1. Purpose and Scope
+
+This document establishes the unified governance model and technical standards for all automation frameworks within the organization. Its purpose is to ensure that our automation solutions are scalable, maintainable, and deliver reliable, high-quality feedback.
+
+These standards apply to all QA engineers and developers contributing to the automation codebase. Adherence is mandatory and will be enforced through automated checks and code reviews.
+
+## 2. Core Automation Standards
+
+These global standards are the foundation of our automation architecture and apply to all frameworks.
 
 - **Test Isolation**
   - Each test must be independent and not rely on the state of other tests.
@@ -46,9 +54,11 @@
 
 ---
 
-## Stack-Specific Addendums
+## 3. Stack-Specific Standards
 
-### Playwright_BDD_Framework (Web, TypeScript)
+The following addendums provide specific guidance for each approved automation framework.
+
+### 3.1. Playwright_BDD_Framework (Web, TypeScript)
 - Use Playwright fixtures for browser/context/page isolation.
 - Centralize browser management (see `BrowserManager.ts`).
 - Use AsyncLocalStorage for per-test context in reporting/logging.
@@ -56,7 +66,7 @@
 - Prefer TypeScript types and interfaces for models and test data.
 - Use Cucumber steps and page objects for BDD alignment.
 
-### WebBrowserAutomation_BDD_Framework (Web, Java, Selenium)
+### 3.2. WebBrowserAutomation_BDD_Framework (Web, Java, Selenium)
 - Use ThreadLocal for WebDriver and ExtentTest instances.
 - Hooks (`Hooks.java`) must manage browser and reporting lifecycle.
 - Page Objects must extend a common base (e.g., `BasePageObject`).
@@ -64,14 +74,14 @@
 - Test data and config must be externalized (properties, Excel, etc.).
 - Attach screenshots to Cucumber scenarios on failure.
 
-### MobileAutomation_BDD_Framework (Mobile, Java)
+### 3.3. MobileAutomation_BDD_Framework (Mobile, Java)
 - Use ThreadLocal for reporting and driver management.
 - Centralize reporting via `ExtentReportManager.java`.
 - Use annotation transformers for retry logic (e.g., `RetryTransformer`).
 - Test data and config must be externalized and thread-safe.
 - Ensure mobile-specific capabilities are configurable.
 
-### evri-api-automation-framework (API, Java)
+### 3.4. evri-api-automation-framework (API, Java)
 - Use thread-safe utilities for config and secrets (`PropertiesHandlers.java`).
 - Centralize API client logic and logging.
 - Data-driven tests should use external sources (Excel, JSON, etc.).
@@ -80,11 +90,4 @@
 
 ---
 
-
-*This checklist is maintained by the Automation Lead and reflects unified governance across all automation stacks. Update as frameworks evolve.*
-
----
-
-## Non-Conformance Protocol
-
-If a Pull Request (PR) fails to meet any mandatory automation standard (e.g., the 'No Hard Wait' standard), it is automatically rejected. The PR rejection must include a link to the relevant Technical Standardization Policy for reference and remediation guidance.
+*This document is maintained by the Automation Lead and reflects unified governance across all automation stacks. It will be reviewed and updated quarterly.*

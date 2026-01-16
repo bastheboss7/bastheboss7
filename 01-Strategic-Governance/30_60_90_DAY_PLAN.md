@@ -27,7 +27,7 @@
 *Goal: Scale the strategy and establish a "Continuous Quality" culture.*
 
 * **Shift-Left Implementation:** Fully embed the [Three Amigos Checklist](../03-Operational-Delivery/THREE_AMIGOS_CHECKLIST.md) into the sprint cycle.
-* **Gen AI Pilot:** Launch the first AI-accelerated initiative (e.g., [Automated Log Analysis](../04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md)) to reduce triage time.
+* **Gen AI Pilot:** Launch the first AI-accelerated initiative (e.g., [Automated Log Analysis](../04-Business-Value-ROI/CASE_STUDY_GENAI_AUGMENTED_TEST_DESIGN.md)) to reduce triage time.
 * **ROI Reporting:** Present the first **Quality Value Report** to leadership, showing measurable improvements in Defect Leakage and Execution Speed.
 * **Self-Sustaining Teams:** Empower the team to own the governance, moving my role from "Directing" to "Coaching & Architecting."
 

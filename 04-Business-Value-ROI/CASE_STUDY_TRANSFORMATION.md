@@ -42,7 +42,7 @@ We implemented a four-phase transformation, using the frameworks in this toolkit
 
 ### Phase 4: TMMi Level 5 (Optimized) - Driving Defect Prevention with AI
 -   **Frameworks Used:**
-    *   [GenAI Transformation Guide](./GEN_AI_TRANSFORMATION.md): To leverage AI for defect prevention.
+    *   [GenAI Transformation Guide](./CASE_STUDY_GENAI_AUGMENTED_TEST_DESIGN.md): To leverage AI for defect prevention.
 -   **Actions:** We integrated a **GenAI Test Design Utility** into our workflow, using LLMs to auto-generate Gherkin scenarios and identify edge cases during the design phase. This allowed us to prevent defects before they were ever coded.
 
 ---

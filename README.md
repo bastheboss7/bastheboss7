@@ -55,10 +55,10 @@ Building high-performance "Golden Pipelines" and resilient frameworks.
 ✨ **Pillar 3: Gen AI-Accelerated Engineering**
 Leveraging LLMs as a force multiplier for the entire Quality Lifecycle.
 
-- **AI-Accelerated Design:** Using LLMs to transform User Stories into Gherkin scenarios and Page Objects ([GenAI-QA-Planning-Project](https://github.com/bastheboss7/GenAI-QA-Planning-Project), [Gen AI Transformation Guide](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md)).
+- **AI-Accelerated Design:** Using LLMs to transform User Stories into Gherkin scenarios and Page Objects ([GenAI-QA-Planning-Project](https://github.com/bastheboss7/GenAI-QA-Planning-Project), [Gen AI Transformation Guide](./04-Business-Value-ROI/CASE_STUDY_GENAI_AUGMENTED_TEST_DESIGN.md)).
 - **Intelligent Triage:** Implementing AI-driven RCA agents to parse logs and categorize failures automatically ([GenAI-Jira-Integration](https://github.com/bastheboss7/GenAI-Jira-Integration)).
 - **Exploratory Guidance:** Leveraging AI to suggest "unknown-unknown" edge cases for manual testers to validate ([Test Scenario Templates](./05-Practical-Examples/TEST_SCENARIO_TEMPLATES.md)).
-- **Synthetic Data:** Generating complex, non-PII test data sets to increase coverage without compromising security ([Gen AI Transformation Guide](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md)).
+- **Synthetic Data:** Generating complex, non-PII test data sets to increase coverage without compromising security ([Gen AI Transformation Guide](./04-Business-Value-ROI/CASE_STUDY_GENAI_AUGMENTED_TEST_DESIGN.md)).
 ---
 
 
@@ -74,7 +74,7 @@ Leveraging LLMs as a force multiplier for the entire Quality Lifecycle.
 | Category | Artifact | Impact |
 |----------|----------|--------|
 | 📊 **Strategy** | [Risk-Based Testing Matrix](./01-Strategic-Governance/RBT_PRIORITY_MATRIX.md) | Reduced testing cycles by 30% while maintaining coverage |
-| 🤖 **AI Innovation** | [Gen AI Transformation Guide](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md) | 50% faster test design, 40% reduction in flaky tests |
+| 🤖 **AI Innovation** | [Gen AI Transformation Guide](./04-Business-Value-ROI/CASE_STUDY_GENAI_AUGMENTED_TEST_DESIGN.md) | 50% faster test design, 40% reduction in flaky tests |
 | 🛠️ **Frameworks** | [Multi-Layer Automation Strategy](./01-Strategic-Governance/TECHNOLOGY_STACK.md) | High-performance Web, Mobile, and API architecture |
 | 📈 **Business Value** | [QA Transformation Case Study](./04-Business-Value-ROI/CASE_STUDY_TRANSFORMATION.md) | Level 1→5 maturity with measurable ROI |
 | 🎯 **Operational** | [Three Amigos Checklist](./03-Operational-Delivery/THREE_AMIGOS_CHECKLIST.md) | 60% reduction in requirement defects |
@@ -127,7 +127,7 @@ This repository showcases **production-ready artifacts** I've developed across m
 │
 ├── 📁 04-Business-Value-ROI/            # Executive-level impact reporting
 │   ├── CASE_STUDY_TRANSFORMATION.md    # Real-world transformation story
-│   ├── GEN_AI_TRANSFORMATION.md        # AI-driven QA acceleration
+│   ├── CASE_STUDY_GENAI_AUGMENTED_TEST_DESIGN.md        # AI-driven QA acceleration
 │   └── QA_VALUE_REPORT.md              # Metrics that matter to leadership
 │
 └── 📁 05-Practical-Examples/            # Ready-to-use templates
@@ -156,7 +156,7 @@ This section contains expert-level resources for addressing specific, complex ch
 ### 3. Ensuring Continuous Quality & Governance
 *For Operational Excellence & Governance Teams*
 -   **[Quality Gates](./01-Strategic-Governance/QUALITY_GATES.md)**: A framework defining the non-negotiable quality standards that every feature must meet before release.
--   **[Continuous Quality Monitoring](./01-Strategic-Governance/CONTINUOUS_QUALITY_MONITORING.md)**: A strategy for post-production monitoring to catch issues before they impact a wide audience.
+-   **[Quality Gates](./01-Strategic-Governance/QUALITY_GATES.md)**: A strategy for post-production monitoring to catch issues before they impact a wide audience.
 -   **[Bypass & Exception Log](./05-Practical-Examples/BYPASS_EXCEPTION_LOG.md)**: A process for managing exceptions and tracking technical debt when a quality gate must be bypassed.
 
 ---
@@ -187,7 +187,7 @@ This section contains expert-level resources for addressing specific, complex ch
 - [30-60-90 Day Plan](./01-Strategic-Governance/30_60_90_DAY_PLAN.md) - My roadmap for Day 1 impact
 - [QA Transformation Case Study](./04-Business-Value-ROI/CASE_STUDY_TRANSFORMATION.md) - Real impact with metrics
 - [Resourcing Strategy](./02-People-Operations/RESOURCING_STRATEGY.md) - Scaling & Talent management
-- [Gen AI Strategy & ROI](./04-Business-Value-ROI/GEN_AI_TRANSFORMATION.md) - Modernization approach
+- [Gen AI Strategy & ROI](./04-Business-Value-ROI/CASE_STUDY_GENAI_AUGMENTED_TEST_DESIGN.md) - Modernization approach
 - [QA Value Report Template](./04-Business-Value-ROI/QA_VALUE_REPORT.md) - How I report to leadership
 
 **🎯 For QA Leaders & Peers:**
